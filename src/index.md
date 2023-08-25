@@ -24,3 +24,6 @@ I'm broadly interested in commutative algebra, homotopy theory, logic, and forma
 
 * A talk on what formal verification is written for a student seminar
 [Slides](/pdfs/Lean_Talk.pdf)
+
+* WIP Notes for a talk I'm giving on simplicial sets & the quillen model structure in a seminar
+[Notes](/pdfs/sset.pdf)
