@@ -1,0 +1,138 @@
+% SPDX-License-Identifier: CC0-1.0 
+
+\usepackage{tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd}
+\usepackage[dvipsnames]{xcolor}
+\usetikzlibrary{matrix,arrows}
+\usetikzlibrary{fit,positioning,calc,shapes}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+
+\definecolor{cornflowerblue}{rgb}{0.39, 0.58, 0.93}
+\definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}
+\definecolor{celadon}{rgb}{0.67, 0.88, 0.69}
+
+
+\tikzcdset{
+diagrams={>={Straight Barb[scale=0.5]}}
+}
+\tikzset{
+  altstackar/.style={decorate, decoration={show path construction,
+          lineto code={
+              \path (\tikzinputsegmentfirst); \pgfgetlastxy{\xstart}{\ystart}
+              \path (\tikzinputsegmentlast); \pgfgetlastxy{\xend}{\yend}
+              \path ($(0,0)!1.5pt!(\ystart-\yend,\xend-\xstart)$); \pgfgetlastxy{\xperp}{\yperp}
+              \foreach \n[evaluate=\n as \k using .5*#1-\n+.5] in {1,...,#1}{
+                  \ifodd\n{\draw[->, shorten <=2pt, shift={($\k*(\xperp,\yperp+1.5)$)}](\xstart,\ystart)--(\xend,\yend);}
+                  \else{\draw[<-, shorten >=2pt, shift={($\k*(\xperp,\yperp+1.5)$)}](\xstart,\ystart)--(\xend,\yend);}\fi
+                }
+            }
+        }}, altstackar/.default={1}
+}
+
+% more xrightarrow variants
+\makeatletter
+\newcommand*{\relrelbarsep}{.386ex}
+\newcommand*{\relrelbar}{%
+  \mathrel{%
+    \mathpalette\@relrelbar\relrelbarsep
+  }%
+}
+\newcommand*{\@relrelbar}[2]{%
+  \raise#2\hbox to 0pt{$\m@th#1\relbar$\hss}%
+  \lower#2\hbox{$\m@th#1\relbar$}%
+}
+\providecommand*{\rightrightarrowsfill@}{%
+  \arrowfill@\relrelbar\relrelbar\rightrightarrows
+}
+\providecommand*{\leftleftarrowsfill@}{%
+  \arrowfill@\leftleftarrows\relrelbar\relrelbar
+}
+\providecommand*{\xrightrightarrows}[2][]{%
+  \ext@arrow 0359\rightrightarrowsfill@{#1}{#2}%
+}
+\providecommand*{\xleftleftarrows}[2][]{%
+  \ext@arrow 3095\leftleftarrowsfill@{#1}{#2}%
+}
+\makeatother
+
+\newcommand{\bedefine}{\stackrel{\scalebox{0.5}{\ensuremath{\mathsf{,def}}}}{=}}
+
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\Obj}{Obj}
+\DeclareMathOperator{\Mor}{Mor}
+\DeclareMathOperator{\colim}{colim}
+\DeclareMathOperator{\Psh}{Psh}
+\DeclareMathOperator{\Sh}{Sh}
+\DeclareMathOperator{\Fun}{Fun}
+\DeclareMathOperator{\op}{op}
+\newcommand{\adjoint}[4]{#1\negmedspace: #2\rightleftarrows #3:\negmedspace #4}
+\newcommand{\cat}[1]{\mathsf{#1}}
+\newcommand{\comp}{\mathbin{\oldcirc}}
+
+\DeclareMathOperator{\Sing}{Sing}
+\newcommand{\sset}{s\cat{Set}}
+
+\DeclareMathOperator{\coker}{coker}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\adj}{adj}
+\DeclareMathOperator{\Rep}{Rep}
+\DeclareMathOperator{\Ch}{Ch}
+\DeclareMathOperator{\Ann}{Ann}
+\DeclareMathOperator{\length}{length}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\Supp}{Supp}
+\DeclareMathOperator{\type}{type}
+\DeclareMathOperator{\Soc}{Soc}
+\DeclareMathOperator{\Fit}{Fit}
+\DeclareMathOperator{\gr}{gr}
+\DeclareMathOperator{\grade}{grade}
+\DeclareMathOperator{\depth}{depth}
+\DeclareMathOperator{\height}{ht}
+\DeclareMathOperator{\Tor}{Tor}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\Ass}{Ass}
+\newcommand{\RHom}{\mathbf{R}\Hom}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\renewcommand{\S}{\mathbb{S}}
+\newcommand{\A}{\mathbb{A}}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\D}{\mathbb{D}}
+\renewcommand{\O}{\mathcal{O}}
+\newcommand{\p}{\mathfrak{p}}
+\newcommand{\m}{\mathfrak{m}}
+\newcommand{\n}{\mathfrak{n}}
+\newcommand{\q}{\mathfrak{q}}
+\renewcommand{\a}{\mathfrak{a}}
+
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\left|#1\right|}
+\renewcommand{\vec}{\mathbf}
+
+\newcommand{\restrict}[1]{!!\downharpoonright_{\thinspace #1}}
+
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\hat}{\widehat}
+\renewcommand{\tilde}{\widetilde}
+
+\tikzset{curve/.style={settings={#1},to path={(\tikztostart)
+          .. controls ($(\tikztostart)!\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+          and ($(\tikztostart)!1-\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+          .. (\tikztotarget)\tikztonodes}},
+  settings/.code={\tikzset{quiver/.cd,#1}
+      \def\pv##1{\pgfkeysvalueof{/tikz/quiver/##1}}},
+  quiver/.cd,pos/.initial=0.35,height/.initial=0}
+\tikzset{tail reversed/.code={\pgfsetarrowsstart{tikzcd to}}}
+\tikzset{2tail/.code={\pgfsetarrowsstart{Implies[reversed]}}}
+\tikzset{2tail reversed/.code={\pgfsetarrowsstart{Implies}}}
+\tikzset{no body/.style={/tikz/dash pattern=on 0 off 1mm}}
