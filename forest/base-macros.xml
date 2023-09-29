@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>120</anchor>   <addr>base-macros</addr> <source-path>/mnt/c/Users/brend/Documents/BrenLab/trees/base-macros.tree</source-path> <route>base-macros.xml</route>   <title>Basic macros</title> </frontmatter> <mainmatter>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>120</anchor>   <addr>base-macros</addr>  <route>base-macros.xml</route>   <title>Basic macros</title> </frontmatter> <mainmatter>
+
+
 
 
 
