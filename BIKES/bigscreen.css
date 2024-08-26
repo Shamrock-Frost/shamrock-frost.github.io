@@ -1,0 +1,51 @@
+/* Big screen */
+/* screen > 60em */
+
+/* Navigation */
+
+nav {
+	height: 3em;
+}
+
+nav ul {
+	display: inline;
+	margin: 0;
+	float: right;
+}
+
+nav li {
+ 	float: left;
+}
+
+nav #navsymbol {
+	display: none;
+}
+
+/* Sections */
+
+#about {
+	padding-top: 3em;
+	margin-top: 0;
+}
+
+section {
+	padding-top: 3em;
+	margin-top: -3em;
+	max-width: 50em;
+	margin: auto;
+}
+
+/* Pictures */
+
+
+.pic {
+		width: 45%;
+}
+
+.left {
+		float: left;
+}
+
+.right {
+		float: right;
+}

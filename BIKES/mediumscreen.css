@@ -1,0 +1,50 @@
+/* Medium screen */
+/* 60em > screen > 30em */
+
+/* Navigation */
+
+nav {
+	height: 6em;
+}
+
+nav ul {
+	display: inline;
+	position: fixed;
+	margin: 2.5em 0 0 0;
+	float: right;
+	right: 0;
+}
+
+nav li {
+ 	float: left;
+}
+
+nav #navsymbol {
+	display: none;
+}
+
+/* Sections */
+
+#about {
+	padding-top: 6em;
+	margin-top: 0;
+}
+
+section {
+	padding-top: 6em;
+	margin-top: -6em;
+}
+
+/* Pictures */
+
+.pic {
+		width: 45%;
+}
+
+.left {
+		float: left;
+}
+
+.right {
+		float: right;
+}

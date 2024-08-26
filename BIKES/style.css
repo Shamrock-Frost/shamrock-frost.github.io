@@ -1,0 +1,97 @@
+/* General Style */
+
+/* Navigation */
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.5em;
+	background-color: #000099;
+	color: #ffffff;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	text-align: center;
+	border: 1px solid #ffffff;
+	margin: 0.5em;
+}
+
+nav li a {
+	display: block;
+	text-decoration: none;
+	padding: 0.5em;
+	color: #ffffff;
+}
+
+nav li a:hover {
+	color: #000099;
+	background-color: #ffffff;
+}
+
+nav #navsymbol {
+	float: right;
+	margin: 0.3em 0.5em;
+	height: 3em;
+	width: 2.5em;
+	padding: 0;
+	border: 1px #fff;
+	background-color: #000099;
+}
+
+nav #navsymbol div {
+	width: 2.5em;
+	height: 0.3em;
+	background-color: #ffffff;
+	margin: 0.6em 0;
+}
+
+/* Sections */
+
+section a {
+	color: #000099;
+}
+
+section a:hover {
+	background-color: #000099;
+	color: #ffffff;
+}
+
+/* Headlines */
+
+h1 {
+	display: inline;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+h2 {
+	display: block;
+	font-weight: normal;
+	background-color: #000099;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* Lists */
+
+dt {
+	font-weight: bold;
+	color: #000099;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px	solid #ffffff;
+	padding: 0.2em 0.5em;
+	border: 1px #000099 solid;
+	border-width: 1px 0;
+}
