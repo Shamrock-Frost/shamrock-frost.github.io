@@ -17,7 +17,11 @@
     <html:p>Orbital varieties — the irreducible components of
 <fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda } \cap  \mathfrak {n}]]></fr:tex> for <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> a fixed nilradical, Borel or
 parabolic — are Lagrangian for the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> on
-<fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, for every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every characteristic.</html:p>
+<fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, a restriction of <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>, for
+every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every characteristic. Each therefore has dimension
+<fr:tex display="inline"><![CDATA[\frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>, which by
+<fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">the three recurring numbers</fr:link> is <fr:tex display="inline"><![CDATA[\dim 
+\mathrm {Fl}_{\lambda '}]]></fr:tex>.</html:p>
     <html:p><html:strong>Consequence.</html:strong> The <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable subvarieties of an orbit that the
 height program must control sit exactly at half dimension, with the
 isotropy form available as an identity rather than as a genericity
@@ -25,7 +29,6 @@ argument. This is avatar 1's mechanism theorem: it supplies the
 symplectic half of every dimension bound in the program, and it is why
 the surviving open content of <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> is
 purely <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
-    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">The three recurring numbers</fr:link>, <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>.</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -65,19 +68,21 @@ purely <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariet
                 <fr:meta name="provenance">distilled.tex sec:kk-lagrangian.</fr:meta>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex>: <fr:tex display="block"><![CDATA[
+                <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n = \mathrm {M}_n]]></fr:tex> of
+<fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">the setup</fr:link>: <fr:tex display="block"><![CDATA[
   \kappa (A, B) = \operatorname {tr}(AB),
 ]]></fr:tex>
 perfect over every ring, symmetric, and invariant:
-<fr:tex display="inline"><![CDATA[\kappa ([P, A], B) = -\kappa (A, [P, B])]]></fr:tex>. Twisted, it
-identifies <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
+<fr:tex display="inline"><![CDATA[\kappa ([P, A], B) = -\kappa (A, [P, B])]]></fr:tex>. Twisted by
+<fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link>, it identifies <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its
+<fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
                 <html:p>Restricted to the commutator subspace of a fixed <fr:tex display="inline"><![CDATA[P]]></fr:tex>, its
 alternation <fr:tex display="block"><![CDATA[\kappa ([P, A], A) = 0]]></fr:tex> is the source of every
-symplectic structure in the program. The Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>
-that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
+symplectic structure in the program.</html:p>
+                <html:p><html:strong>Role in the skeleton.</html:strong> The Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> that makes
+<fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
-<fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
+<fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of the trace form.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -93,7 +98,8 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
                 <fr:meta name="provenance">standard; journal sec:orbits.</fr:meta>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Fix <fr:tex display="inline"><![CDATA[\lambda  \vdash  n]]></fr:tex> with conjugate <fr:tex display="inline"><![CDATA[\lambda ']]></fr:tex>. Then
+                <html:p>Work in <fr:tex display="inline"><![CDATA[\mathrm {M}_n]]></fr:tex> over the field <fr:tex display="inline"><![CDATA[k]]></fr:tex> of <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">the setup</fr:link>. Fix
+<fr:tex display="inline"><![CDATA[\lambda  \vdash  n]]></fr:tex> with conjugate <fr:tex display="inline"><![CDATA[\lambda ']]></fr:tex>. Then
 <fr:tex display="block"><![CDATA[
   c(\lambda ) = \sum _{i,j} \min (\lambda _i, \lambda _j)
              = \sum _j (\lambda '_j)^2, \qquad 
@@ -104,10 +110,10 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
 nilpotent of type <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>, in every characteristic: the centralizer
 is the <fr:tex display="inline"><![CDATA[k[T]]]></fr:tex>-module <fr:tex display="inline"><![CDATA[\operatorname {Hom}]]></fr:tex> of the type modules, whose dimension is
 the stated minimum-sum. For regular <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex> the half is
-<fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex> — the height-conjecture dimension, which is why
-<fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> and <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> are the same
-statement at two scales.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+<fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex>.</html:p>
+                <html:p><html:strong>Consequence.</html:strong> <fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex> is the height-conjecture dimension, which is
+why <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> and <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> are the
+same statement at two scales.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -122,11 +128,12 @@ statement at two scales.</html:p>
                 <fr:meta name="provenance">distilled.tex Part 2 (the avatar structure).</fr:meta>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>Every bound the program needs is half of a nilpotent orbit dimension.
-Nilpotent orbits carry the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> in every
-characteristic; a subvariety of half dimension inside an orbit sits at
-the Lagrangian bound, and dimension <fr:tex display="inline"><![CDATA[\le ]]></fr:tex> half is exactly what isotropy
-forces.</html:p>
+                <html:p>Every bound the program needs is half of a nilpotent orbit dimension
+<fr:tex display="inline"><![CDATA[\dim  \mathcal {O}_{\lambda }]]></fr:tex> (<fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">the three recurring numbers</fr:link>). Nilpotent
+orbits carry the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> — a restriction of
+<fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link> — in every characteristic; a subvariety of
+half dimension inside an orbit sits at the Lagrangian bound, and
+dimension <fr:tex display="inline"><![CDATA[\le ]]></fr:tex> half is exactly what isotropy forces.</html:p>
                 <html:p>The thesis appears at three scales, and the three avatars of the
 forest are its three instances.</html:p>
                 <html:ul><html:li><html:strong>Global</html:strong> — the <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> form on each orbit:
@@ -138,7 +145,6 @@ forest are its three instances.</html:p>
                 <html:p>This is a principle, not a theorem: it is the reason the three
 avatars have the same shape, and it is what tells you that
 <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is the right thing to be stuck on.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">The three recurring numbers</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -158,7 +164,11 @@ avatars have the same shape, and it is what tells you that
                 <html:p>Orbital varieties — the irreducible components of
 <fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda } \cap  \mathfrak {n}]]></fr:tex> for <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> a fixed nilradical, Borel or
 parabolic — are Lagrangian for the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> on
-<fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, for every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every characteristic.</html:p>
+<fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, a restriction of <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>, for
+every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every characteristic. Each therefore has dimension
+<fr:tex display="inline"><![CDATA[\frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>, which by
+<fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">the three recurring numbers</fr:link> is <fr:tex display="inline"><![CDATA[\dim 
+\mathrm {Fl}_{\lambda '}]]></fr:tex>.</html:p>
                 <html:p><html:strong>Consequence.</html:strong> The <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable subvarieties of an orbit that the
 height program must control sit exactly at half dimension, with the
 isotropy form available as an identity rather than as a genericity
@@ -166,7 +176,6 @@ argument. This is avatar 1's mechanism theorem: it supplies the
 symplectic half of every dimension bound in the program, and it is why
 the surviving open content of <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> is
 purely <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">The three recurring numbers</fr:link>, <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -182,8 +191,9 @@ purely <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariet
                 <fr:meta name="provenance">distilled.tex Part 3; journal sec:h1.</fr:meta>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>A <html:em>nilpotent pencil</html:em> is <fr:tex display="inline"><![CDATA[P = \mu  N + \nu  M]]></fr:tex>, a matrix
-of linear forms over <fr:tex display="inline"><![CDATA[B = K[\mu , \nu ]]]></fr:tex>, every member nilpotent. Its
+                <html:p>Let <fr:tex display="inline"><![CDATA[K]]></fr:tex> be the algebraically closed field of <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">the setup</fr:link>.
+A <html:em>nilpotent pencil</html:em> is <fr:tex display="inline"><![CDATA[P = \mu  N + \nu  M]]></fr:tex>, a matrix of
+linear forms over <fr:tex display="inline"><![CDATA[B = K[\mu , \nu ]]]></fr:tex>, every member nilpotent. Its
 generic Jordan type is <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex>, and a <html:em>drop point</html:em> is one of
 the finitely many <fr:tex display="inline"><![CDATA[x \in  \mathbb {P}^1]]></fr:tex> at which the fiber type degenerates.</html:p>
                 <html:p>The commutator map <fr:tex display="block"><![CDATA[
@@ -194,7 +204,6 @@ on the pencil's <fr:tex display="inline"><![CDATA[\mathbb {P}^1]]></fr:tex> has 
 <fr:tex display="inline"><![CDATA[\mathcal {C}_{P}]]></fr:tex>. The moving-flag count balances curve freedom against
 inscribed-pencil freedom through the Riemann--Roch budget
 <fr:tex display="inline"><![CDATA[\chi (\mathcal {C}_{P})]]></fr:tex>.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -211,23 +220,23 @@ inscribed-pencil freedom through the Riemann--Roch budget
                 <fr:meta name="provenance">distilled.tex Part 3; journal sec:h1; formal/ Lean certificates.</fr:meta>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>(H1). Every nilpotent pencil satisfies the incidence bound: the
-dimension of the space of flags inscribed in the pencil is at most its
-Riemann--Roch budget <fr:tex display="inline"><![CDATA[\chi (\mathcal {C}_{P})]]></fr:tex>, with equality controlled
-by the adjoint torsion — for every type and multidegree, every <fr:tex display="inline"><![CDATA[n]]></fr:tex>,
-every characteristic.</html:p>
+                <html:p>(H1). Every <fr:link href="/ffi/ffi-0015/" title="Nilpotent pencils, drop points, the centralizer sheaf" uri="https://www.brendan.phd/ffi/ffi-0015/" display-uri="ffi-0015" type="local">nilpotent pencil</fr:link> satisfies the incidence
+bound: the dimension of the space of flags inscribed in the pencil is at
+most its Riemann--Roch budget <fr:tex display="inline"><![CDATA[\chi (\mathcal {C}_{P})]]></fr:tex>, with equality
+controlled by the adjoint torsion — for every type and multidegree,
+every <fr:tex display="inline"><![CDATA[n]]></fr:tex>, every characteristic.</html:p>
                 <html:p><html:strong>Mechanism.</html:strong> A characteristic-free trace identity. Tangent vectors to
 constant-type families are commutators over the function field, hence
 lie in the adjoint torsion, hence are isotropic for the residue form
-<fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex>; isotropy becomes a trace identity rather than a
-genericity argument. The realized subspace is measured Lagrangian (the
-<fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-law) at every computed drop point.</html:p>
+<fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex>, a restriction of <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>;
+isotropy becomes a trace identity rather than a genericity argument. The
+realized subspace is measured Lagrangian (the <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-law) at every
+computed drop point.</html:p>
                 <html:p><html:strong>Consequence.</html:strong> The nilpotent-pencil scheme is unconditionally a complete
 intersection and the regular-class height bound holds for every <fr:tex display="inline"><![CDATA[n]]></fr:tex>, so
 <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> rides on the single statement
 <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>. The elementary chain of the proof is formalized in
 Lean 4 (formal/, no sorry up to the kernel-flatness hypothesis).</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0015/" title="Nilpotent pencils, drop points, the centralizer sheaf" uri="https://www.brendan.phd/ffi/ffi-0015/" display-uri="ffi-0015" type="local">Nilpotent pencils, drop points, the centralizer sheaf</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -246,8 +255,8 @@ Lean 4 (formal/, no sorry up to the kernel-flatness hypothesis).</html:p>
                 <html:p>A <html:em>pencil germ</html:em> is a lattice over <fr:tex display="inline"><![CDATA[B = k\lbrack \lbrack  u \rbrack \rbrack \lbrack  u^{-1} \rbrack ]]></fr:tex>, a
 polynomial-type ring in one variable over the formal power series ring
 <fr:tex display="inline"><![CDATA[R = k\lbrack \lbrack  u \rbrack \rbrack ]]></fr:tex>. The <html:em>survivor algebra</html:em> of a germ carries
-a cyclic cocycle; that cocycle is the germ-scale avatar of the trace
-form.</html:p>
+a cyclic cocycle; that cocycle is the germ-scale avatar of
+<fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>.</html:p>
                 <html:p>The <html:em>exponent dictionary</html:em> computes its graded pieces: the
 dimension of the level-<fr:tex display="inline"><![CDATA[m]]></fr:tex> piece is <fr:tex display="block"><![CDATA[
   r + \#\{\text {adjoint-torsion exponents of size} \ge  m\},
@@ -259,7 +268,6 @@ structure sheaf.</html:p>
 Avatar 2, the residue form <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex>, has its <fr:tex display="inline"><![CDATA[u]]></fr:tex>-adic
 bottom here. Coisotropy of the cocycle is <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link>; the
 attempt to upgrade it to a Lagrangian statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -277,12 +285,12 @@ attempt to upgrade it to a Lagrangian statement is <fr:link href="/ffi/ffi-0050/
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>Wall 1. The cyclic cocycle carried by the survivor algebra of a
-pencil germ is coisotropic.</html:p>
+<fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">pencil germ</fr:link> — the germ-scale avatar of
+<fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link> — is coisotropic.</html:p>
                 <html:p><html:strong>Role in the skeleton.</html:strong> This is the bottom floor of the avatar tower: the germ-scale
 instance of <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">the thesis</fr:link>, and the fixed point from which
 <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link> tries to upgrade coisotropy to the full Lagrangian
 statement. It is a theorem; the upgrade is not.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -299,8 +307,9 @@ statement. It is a theorem; the upgrade is not.</html:p>
                 <fr:meta name="provenance">journal passes 6--8 (variational identities, thresholds, anomaly law); distilled.tex Part 5.</fr:meta>
               </fr:frontmatter>
               <fr:mainmatter>
-                <html:p>(anomaly law). Coisotropy of the survivor cocycle fails only at special
-characteristic-2 germs.</html:p>
+                <html:p>(anomaly law). Coisotropy of the survivor cocycle of
+<fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">the germ apparatus</fr:link> — the conclusion of <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link>
+— fails only at special characteristic-2 germs.</html:p>
                 <html:p><html:strong>Role in the skeleton.</html:strong> The law is the bookkeeping for why characteristic 2 is the sole
 obstruction to characteristic-free statements at germ scale — which
 germs are anomalous, and why only generic statements survive there.</html:p>
@@ -308,7 +317,6 @@ germs are anomalous, and why only generic statements survive there.</html:p>
 the small-<fr:tex display="inline"><![CDATA[n]]></fr:tex> record: the one genuine counterexample to a
 naively-stated survivor identity in the whole program is over <fr:tex display="inline"><![CDATA[\mathbb {F}_q]]></fr:tex>
 with <fr:tex display="inline"><![CDATA[q = 2]]></fr:tex> at <fr:tex display="inline"><![CDATA[n = 5]]></fr:tex>.</html:p>
-                <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1: coisotropy of the cyclic cocycle</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
@@ -338,7 +346,8 @@ with <fr:tex display="inline"><![CDATA[q = 2]]></fr:tex> at <fr:tex display="inl
           <fr:mainmatter>
             <html:p>(*): for every proper <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable irreducible subvariety
 <fr:tex display="inline"><![CDATA[W]]></fr:tex> of a nilpotent orbit <fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, the isotropy bound holds —
-<fr:tex display="inline"><![CDATA[\dim  W \le  \frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>.</html:p>
+<fr:tex display="inline"><![CDATA[\dim  W \le  \frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>, with <fr:tex display="inline"><![CDATA[\dim  \mathcal {O}_{\lambda }]]></fr:tex> the
+orbit dimension of <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">the three recurring numbers</fr:link>.</html:p>
             <html:p><html:strong>Role in the skeleton.</html:strong> After <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link> this is the single remaining geometric
 statement between the program and <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link>.
 <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link> supplies it whenever <fr:tex display="inline"><![CDATA[W]]></fr:tex>
@@ -346,9 +355,8 @@ is an orbital variety; what is left is the case of subvarieties carrying
 <fr:tex display="inline"><![CDATA[\ge  2]]></fr:tex> moduli of <fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits, where characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> denies
 the generic-smoothness argument. First possible at <fr:tex display="inline"><![CDATA[n = 6]]></fr:tex>, which is
 why the ladder <fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link> has to be climbed by
-hand.</html:p>
-            <html:p>The infinitesimal form of the same statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1): the incidence theorem for flagless pencils</fr:link>.</html:p>
+hand. The infinitesimal form of the same statement is
+<fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -371,7 +379,6 @@ nilradical (Kashiarov; Hille--Röhrle), so <fr:link href="/ffi/ffi-0010/" title=
 needed: the isotropy bound of <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">the orbital-variety theorem</fr:link>,
 plus at most one modulus of orbits, covers every <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable
 irreducible subvariety.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -389,13 +396,13 @@ irreducible subvariety.</html:p>
           <fr:mainmatter>
             <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for every <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex> and
 every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, unconditionally.</html:p>
-            <html:p><html:strong>Mechanism.</html:strong> The modality theorem: <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{n}) = 1]]></fr:tex> for <fr:tex display="inline"><![CDATA[n = 6, 7]]></fr:tex>. With
-at most one modulus of <fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits on the nilradical, the
-two-moduli case of <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> never arises, so
+            <html:p><html:strong>Mechanism.</html:strong> The modality theorem: the <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>
+satisfies <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{n}) = 1]]></fr:tex> for <fr:tex display="inline"><![CDATA[n = 6, 7]]></fr:tex>. With at most one modulus of
+<fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits on the nilradical, the two-moduli case of
+<fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> never arises, so
 <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">the orbital-variety theorem</fr:link> closes every subvariety. The
 modality inputs are published rows discharged against machine
 certificates (Goddard--Goodwin; GMR2).</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -410,11 +417,12 @@ certificates (Goddard--Goodwin; GMR2).</html:p>
             <fr:meta name="provenance">distilled.tex Part 2 (the avatar structure).</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>Every bound the program needs is half of a nilpotent orbit dimension.
-Nilpotent orbits carry the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> in every
-characteristic; a subvariety of half dimension inside an orbit sits at
-the Lagrangian bound, and dimension <fr:tex display="inline"><![CDATA[\le ]]></fr:tex> half is exactly what isotropy
-forces.</html:p>
+            <html:p>Every bound the program needs is half of a nilpotent orbit dimension
+<fr:tex display="inline"><![CDATA[\dim  \mathcal {O}_{\lambda }]]></fr:tex> (<fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">the three recurring numbers</fr:link>). Nilpotent
+orbits carry the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> — a restriction of
+<fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link> — in every characteristic; a subvariety of
+half dimension inside an orbit sits at the Lagrangian bound, and
+dimension <fr:tex display="inline"><![CDATA[\le ]]></fr:tex> half is exactly what isotropy forces.</html:p>
             <html:p>The thesis appears at three scales, and the three avatars of the
 forest are its three instances.</html:p>
             <html:ul><html:li><html:strong>Global</html:strong> — the <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> form on each orbit:
@@ -426,7 +434,6 @@ forest are its three instances.</html:p>
             <html:p>This is a principle, not a theorem: it is the reason the three
 avatars have the same shape, and it is what tells you that
 <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is the right thing to be stuck on.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">The three recurring numbers</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -441,19 +448,21 @@ avatars have the same shape, and it is what tells you that
             <fr:meta name="provenance">distilled.tex sec:kk-lagrangian.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex>: <fr:tex display="block"><![CDATA[
+            <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n = \mathrm {M}_n]]></fr:tex> of
+<fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">the setup</fr:link>: <fr:tex display="block"><![CDATA[
   \kappa (A, B) = \operatorname {tr}(AB),
 ]]></fr:tex>
 perfect over every ring, symmetric, and invariant:
-<fr:tex display="inline"><![CDATA[\kappa ([P, A], B) = -\kappa (A, [P, B])]]></fr:tex>. Twisted, it
-identifies <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
+<fr:tex display="inline"><![CDATA[\kappa ([P, A], B) = -\kappa (A, [P, B])]]></fr:tex>. Twisted by
+<fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link>, it identifies <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its
+<fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
             <html:p>Restricted to the commutator subspace of a fixed <fr:tex display="inline"><![CDATA[P]]></fr:tex>, its
 alternation <fr:tex display="block"><![CDATA[\kappa ([P, A], A) = 0]]></fr:tex> is the source of every
-symplectic structure in the program. The Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>
-that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
+symplectic structure in the program.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> The Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> that makes
+<fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
-<fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
+<fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of the trace form.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
@@ -481,7 +490,8 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
           <fr:mainmatter>
             <html:p>(*): for every proper <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable irreducible subvariety
 <fr:tex display="inline"><![CDATA[W]]></fr:tex> of a nilpotent orbit <fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, the isotropy bound holds —
-<fr:tex display="inline"><![CDATA[\dim  W \le  \frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>.</html:p>
+<fr:tex display="inline"><![CDATA[\dim  W \le  \frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>, with <fr:tex display="inline"><![CDATA[\dim  \mathcal {O}_{\lambda }]]></fr:tex> the
+orbit dimension of <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">the three recurring numbers</fr:link>.</html:p>
             <html:p><html:strong>Role in the skeleton.</html:strong> After <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link> this is the single remaining geometric
 statement between the program and <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link>.
 <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link> supplies it whenever <fr:tex display="inline"><![CDATA[W]]></fr:tex>
@@ -489,9 +499,8 @@ is an orbital variety; what is left is the case of subvarieties carrying
 <fr:tex display="inline"><![CDATA[\ge  2]]></fr:tex> moduli of <fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits, where characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> denies
 the generic-smoothness argument. First possible at <fr:tex display="inline"><![CDATA[n = 6]]></fr:tex>, which is
 why the ladder <fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link> has to be climbed by
-hand.</html:p>
-            <html:p>The infinitesimal form of the same statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1): the incidence theorem for flagless pencils</fr:link>.</html:p>
+hand. The infinitesimal form of the same statement is
+<fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -508,7 +517,8 @@ hand.</html:p>
             <fr:meta name="provenance">distilled.tex Part 1; journal thm:height-n7, thm:m8, cor:height-n8, cor:height-n9.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
+            <html:p>Let <fr:tex display="inline"><![CDATA[J]]></fr:tex> be <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">the Steenrod ideal</fr:link>. For every <fr:tex display="inline"><![CDATA[n]]></fr:tex>
+and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
   \operatorname {ht} J = \frac {n(n+1)}{2},
   \qquad  \text {equivalently} \qquad 
   \dim  V(J) = \frac {n(n - 1)}{2}:
@@ -516,44 +526,13 @@ hand.</html:p>
 the <fr:tex display="inline"><![CDATA[\frac {n(n+1)}{2}]]></fr:tex> invariants <fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})]]></fr:tex>,
 <fr:tex display="inline"><![CDATA[0 \le  i < j \le  n]]></fr:tex>, form a regular sequence in <fr:tex display="inline"><![CDATA[S]]></fr:tex> and extend to a
 homogeneous system of parameters. The conjectured dimension is <fr:tex display="inline"><![CDATA[\dim  \mathrm {Fl}]]></fr:tex> — up to dimension, the
-flag witnesses must be everything.</html:p>
+flag witnesses must be everything. By <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">the Krull bound</fr:link> the
+inequality <fr:tex display="inline"><![CDATA[\ge ]]></fr:tex> is free, so the whole content is the reverse one.</html:p>
             <html:p><html:strong>Status.</html:strong> Proven for <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex>
 (<fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">height at <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex></fr:link>); for characteristic <fr:tex display="inline"><![CDATA[0]]></fr:tex>, every <fr:tex display="inline"><![CDATA[n]]></fr:tex>;
 for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[n]]></fr:tex>, ineffectively; and
 for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
 general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
-          </fr:mainmatter>
-        </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors />
-            <fr:uri>https://www.brendan.phd/ffi/ffi-0013/</fr:uri>
-            <fr:display-uri>ffi-0013</fr:display-uri>
-            <fr:route>/ffi/ffi-0013/</fr:route>
-            <fr:title text="The thesis: every bound is half an orbit dimension">The thesis: every bound is half an orbit dimension</fr:title>
-            <fr:taxon>principle</fr:taxon>
-            <fr:meta name="area">symplectic</fr:meta>
-            <fr:meta name="provenance">distilled.tex Part 2 (the avatar structure).</fr:meta>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <html:p>Every bound the program needs is half of a nilpotent orbit dimension.
-Nilpotent orbits carry the Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> in every
-characteristic; a subvariety of half dimension inside an orbit sits at
-the Lagrangian bound, and dimension <fr:tex display="inline"><![CDATA[\le ]]></fr:tex> half is exactly what isotropy
-forces.</html:p>
-            <html:p>The thesis appears at three scales, and the three avatars of the
-forest are its three instances.</html:p>
-            <html:ul><html:li><html:strong>Global</html:strong> — the <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> form on each orbit:
-  <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties are Lagrangian</fr:link>, a theorem.</html:li>
-  <html:li><html:strong>Semi-local</html:strong> — the residue form <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> on
-  adjoint torsion at drop points: <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, a theorem.</html:li>
-  <html:li><html:strong>Infinitesimal</html:strong> — the survivor cocycle at a pencil germ:
-  <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>, a conjecture.</html:li></html:ul>
-            <html:p>This is a principle, not a theorem: it is the reason the three
-avatars have the same shape, and it is what tells you that
-<fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is the right thing to be stuck on.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">The three recurring numbers</fr:link>.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -569,7 +548,8 @@ avatars have the same shape, and it is what tells you that
             <fr:meta name="provenance">standard; journal sec:orbits.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>Fix <fr:tex display="inline"><![CDATA[\lambda  \vdash  n]]></fr:tex> with conjugate <fr:tex display="inline"><![CDATA[\lambda ']]></fr:tex>. Then
+            <html:p>Work in <fr:tex display="inline"><![CDATA[\mathrm {M}_n]]></fr:tex> over the field <fr:tex display="inline"><![CDATA[k]]></fr:tex> of <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">the setup</fr:link>. Fix
+<fr:tex display="inline"><![CDATA[\lambda  \vdash  n]]></fr:tex> with conjugate <fr:tex display="inline"><![CDATA[\lambda ']]></fr:tex>. Then
 <fr:tex display="block"><![CDATA[
   c(\lambda ) = \sum _{i,j} \min (\lambda _i, \lambda _j)
              = \sum _j (\lambda '_j)^2, \qquad 
@@ -580,10 +560,10 @@ avatars have the same shape, and it is what tells you that
 nilpotent of type <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>, in every characteristic: the centralizer
 is the <fr:tex display="inline"><![CDATA[k[T]]]></fr:tex>-module <fr:tex display="inline"><![CDATA[\operatorname {Hom}]]></fr:tex> of the type modules, whose dimension is
 the stated minimum-sum. For regular <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex> the half is
-<fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex> — the height-conjecture dimension, which is why
-<fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> and <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> are the same
-statement at two scales.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+<fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex>.</html:p>
+            <html:p><html:strong>Consequence.</html:strong> <fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex> is the height-conjecture dimension, which is
+why <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> and <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> are the
+same statement at two scales.</html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -598,19 +578,21 @@ statement at two scales.</html:p>
             <fr:meta name="provenance">distilled.tex sec:kk-lagrangian.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex>: <fr:tex display="block"><![CDATA[
+            <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n = \mathrm {M}_n]]></fr:tex> of
+<fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">the setup</fr:link>: <fr:tex display="block"><![CDATA[
   \kappa (A, B) = \operatorname {tr}(AB),
 ]]></fr:tex>
 perfect over every ring, symmetric, and invariant:
-<fr:tex display="inline"><![CDATA[\kappa ([P, A], B) = -\kappa (A, [P, B])]]></fr:tex>. Twisted, it
-identifies <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
+<fr:tex display="inline"><![CDATA[\kappa ([P, A], B) = -\kappa (A, [P, B])]]></fr:tex>. Twisted by
+<fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link>, it identifies <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its
+<fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
             <html:p>Restricted to the commutator subspace of a fixed <fr:tex display="inline"><![CDATA[P]]></fr:tex>, its
 alternation <fr:tex display="block"><![CDATA[\kappa ([P, A], A) = 0]]></fr:tex> is the source of every
-symplectic structure in the program. The Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>
-that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
+symplectic structure in the program.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> The Kostant--Kirillov form <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex> that makes
+<fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
-<fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
+<fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of the trace form.</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

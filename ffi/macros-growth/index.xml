@@ -159,13 +159,29 @@ then a single edit here rather than a sweep over seventeen trees.</html:p>
   <html:em>metadata</html:em>, not a paragraph — provenance is a fact about the node
   rather than part of what the node claims, so the theme does not print
   it. Read it from the emitted XML, or from ADDRESSES.md.</html:li>
-  <html:li><html:code><![CDATA[\uses{[[ffi-0016]], [[ffi-0021]]}]]></html:code> —
-  the dependency line. This is the <html:em>only</html:em> thing that builds the
-  citation graph: forester derives backlinks from links, not from
-  <html:code><![CDATA[\import]]></html:code>, so a result that is used but not
-  linked is invisible to the graph. Until proof nodes exist, this line
-  is what a Stacks-style proof's inline citations would otherwise carry.
-  <html:code>./check-dag.py</html:code> verifies it.</html:li>
+  <html:li><html:strong>There is no dependency line.</html:strong> A result is cited in the
+  sentence that uses it — <html:code><![CDATA[[the pencil
+  criterion](ffi-0006)]]></html:code> — and that link <html:em>is</html:em> the citation
+  graph, since forester derives backlinks from links, not from
+  <html:code><![CDATA[\import]]></html:code>. A trailing list of addresses was
+  a second channel saying the same thing, and it let a node accumulate
+  dependencies nobody had ever written a sentence about.
+  <html:code>./check-dag.py</html:code> now reads the graph off the prose.</html:li>
+  <html:li><html:strong>Which links count.</html:strong> The dependency graph is the links in
+  the mathematics: the statement itself and its
+  <html:code><![CDATA[\mechanism]]></html:code>. Links inside
+  <html:code><![CDATA[\role]]></html:code>,
+  <html:code><![CDATA[\status]]></html:code>,
+  <html:code><![CDATA[\consequence]]></html:code>,
+  <html:code><![CDATA[\remains]]></html:code>,
+  <html:code><![CDATA[\machine]]></html:code>,
+  <html:code><![CDATA[\caution]]></html:code> and
+  <html:code><![CDATA[\supersededby]]></html:code> are commentary, are excluded
+  from the graph, and may therefore point forward. That is what lets a
+  status paragraph say a conjecture is settled up to <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> and link
+  the node that settles it without creating a cycle. If a statement
+  seems to need a forward reference, the reference is commentary and
+  belongs in one of those paragraphs.</html:li>
   <html:li><html:code><![CDATA[\supersededby{[[...]]}]]></html:code> — for a
   statement kept on the record because it was refuted or restated.</html:li></html:ul>
               </fr:mainmatter>
