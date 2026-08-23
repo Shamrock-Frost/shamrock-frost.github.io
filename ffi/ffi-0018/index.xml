@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ffi/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/ffi/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.brendan.phd/ffi/ffi-0018/</fr:uri>
+    <fr:display-uri>ffi-0018</fr:display-uri>
+    <fr:route>/ffi/ffi-0018/</fr:route>
+    <fr:title text="Height at n ≤ 9">Height at n ≤ 9</fr:title>
+    <fr:taxon>theorem</fr:taxon>
+    <fr:meta name="area">height</fr:meta>
+    <fr:meta name="status">conditional</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for every <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> and
+every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>. Unconditionally for <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex>; for <fr:tex display="inline"><![CDATA[n = 8, 9]]></fr:tex>
+conditional on published modality rows and machine certificates.</html:p>
+    <html:p>The ladder is climbed rung by rung, because <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is
+unavailable and each <fr:tex display="inline"><![CDATA[n]]></fr:tex> has to be discharged by its own count. The
+rungs are <fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">height at <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex></fr:link>,
+<fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link>, <fr:link href="/ffi/ffi-0022/" title="Height at n = 8" uri="https://www.brendan.phd/ffi/ffi-0022/" display-uri="ffi-0022" type="local">height at <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex></fr:link> and
+<fr:link href="/ffi/ffi-0025/" title="Height at n = 9" uri="https://www.brendan.phd/ffi/ffi-0025/" display-uri="ffi-0025" type="local">height at <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex></fr:link>; their conditionality differs and is
+stated on each.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">Height at n ≤ 5</fr:link>, <fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">Height at n ≤ 7</fr:link>, <fr:link href="/ffi/ffi-0022/" title="Height at n = 8" uri="https://www.brendan.phd/ffi/ffi-0022/" display-uri="ffi-0022" type="local">Height at n = 8</fr:link>,
+<fr:link href="/ffi/ffi-0025/" title="Height at n = 9" uri="https://www.brendan.phd/ffi/ffi-0025/" display-uri="ffi-0025" type="local">Height at n = 9</fr:link>.</html:p>
+    <html:p>
+      <html:em>Provenance: journal thm:height-n7, cor:height-n8, cor:height-n9; commits
+afdac1f, e8c7430.</html:em>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0010/</fr:uri>
+            <fr:display-uri>ffi-0010</fr:display-uri>
+            <fr:route>/ffi/ffi-0010/</fr:route>
+            <fr:title text="(*): the characteristic-p subvariety inference">(*): the characteristic-p subvariety inference</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(*): for every proper <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable irreducible subvariety
+<fr:tex display="inline"><![CDATA[W]]></fr:tex> of a nilpotent orbit <fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, the isotropy bound holds —
+<fr:tex display="inline"><![CDATA[\dim  W \le  \frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> After <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link> this is the single remaining geometric
+statement between the program and <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link>.
+<fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link> supplies it whenever <fr:tex display="inline"><![CDATA[W]]></fr:tex>
+is an orbital variety; what is left is the case of subvarieties carrying
+<fr:tex display="inline"><![CDATA[\ge  2]]></fr:tex> moduli of <fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits, where characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> denies
+the generic-smoothness argument. First possible at <fr:tex display="inline"><![CDATA[n = 6]]></fr:tex>, which is
+why the ladder <fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link> has to be climbed by
+hand.</html:p>
+            <html:p>The infinitesimal form of the same statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1): the incidence theorem for flagless pencils</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 3; journal sec:h1 and the pass 6--8
+apparatus.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0009/</fr:uri>
+            <fr:display-uri>ffi-0009</fr:display-uri>
+            <fr:route>/ffi/ffi-0009/</fr:route>
+            <fr:title text="The height conjecture">The height conjecture</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
+  \operatorname {ht} J = \frac {n(n+1)}{2},
+  \qquad  \text {equivalently} \qquad 
+  \dim  V(J) = \frac {n(n - 1)}{2}:
+]]></fr:tex>
+the <fr:tex display="inline"><![CDATA[\frac {n(n+1)}{2}]]></fr:tex> invariants <fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})]]></fr:tex>,
+<fr:tex display="inline"><![CDATA[0 \le  i < j \le  n]]></fr:tex>, form a regular sequence in <fr:tex display="inline"><![CDATA[S]]></fr:tex> and extend to a
+homogeneous system of parameters. The conjectured dimension is <fr:tex display="inline"><![CDATA[\dim  \mathrm {Fl}]]></fr:tex> — up to dimension, the
+flag witnesses must be everything.</html:p>
+            <html:p><html:strong>Status.</html:strong> Proven for <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex>
+(<fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">height at <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex></fr:link>); for characteristic <fr:tex display="inline"><![CDATA[0]]></fr:tex>, every <fr:tex display="inline"><![CDATA[n]]></fr:tex>;
+for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[n]]></fr:tex>, ineffectively; and
+for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
+general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal thm:height-n7, thm:m8,
+cor:height-n8, cor:height-n9.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/sec-height/</fr:uri>
+            <fr:display-uri>sec-height</fr:display-uri>
+            <fr:route>/ffi/sec-height/</fr:route>
+            <fr:title text="finite-field-invariants: a reference forest › The height ladder"><fr:link href="/ffi/index/" title="finite-field-invariants: a reference forest" uri="https://www.brendan.phd/ffi/index/" display-uri="index" type="local">finite-field-invariants: a reference forest</fr:link> › The height ladder</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The conjecture is a theorem for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex>. Each rung is a
+  different mechanism, and the reductions that carry rungs 8 and 9 are
+  worth more than the rungs.</html:p>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">Height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link> — the milestone.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">Height at <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex></fr:link> — finitely many orbits.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">Height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> — the modality theorem,
+    unconditional.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0021/" title="(M8): the per-cell modality reduction at n = 8" uri="https://www.brendan.phd/ffi/ffi-0021/" display-uri="ffi-0021" type="local">(M8)</fr:link> — the address reduction at <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex>.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0022/" title="Height at n = 8" uri="https://www.brendan.phd/ffi/ffi-0022/" display-uri="ffi-0022" type="local">Height at <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex></fr:link> — pseudo-Levi collapse and the
+    torus defect.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S)</fr:link> — the reduction at <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex>.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link> — the ledger that would close it.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0025/" title="Height at n = 9" uri="https://www.brendan.phd/ffi/ffi-0025/" display-uri="ffi-0025" type="local">Height at <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex></fr:link> — the cascade.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0010/</fr:uri>
+            <fr:display-uri>ffi-0010</fr:display-uri>
+            <fr:route>/ffi/ffi-0010/</fr:route>
+            <fr:title text="(*): the characteristic-p subvariety inference">(*): the characteristic-p subvariety inference</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(*): for every proper <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable irreducible subvariety
+<fr:tex display="inline"><![CDATA[W]]></fr:tex> of a nilpotent orbit <fr:tex display="inline"><![CDATA[\mathcal {O}_{\lambda }]]></fr:tex>, the isotropy bound holds —
+<fr:tex display="inline"><![CDATA[\dim  W \le  \frac {1}{2} \dim  \mathcal {O}_{\lambda }]]></fr:tex>.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> After <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link> this is the single remaining geometric
+statement between the program and <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link>.
+<fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link> supplies it whenever <fr:tex display="inline"><![CDATA[W]]></fr:tex>
+is an orbital variety; what is left is the case of subvarieties carrying
+<fr:tex display="inline"><![CDATA[\ge  2]]></fr:tex> moduli of <fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits, where characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> denies
+the generic-smoothness argument. First possible at <fr:tex display="inline"><![CDATA[n = 6]]></fr:tex>, which is
+why the ladder <fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link> has to be climbed by
+hand.</html:p>
+            <html:p>The infinitesimal form of the same statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1): the incidence theorem for flagless pencils</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 3; journal sec:h1 and the pass 6--8
+apparatus.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0022/</fr:uri>
+            <fr:display-uri>ffi-0022</fr:display-uri>
+            <fr:route>/ffi/ffi-0022/</fr:route>
+            <fr:title text="Height at n = 8">Height at n = 8</fr:title>
+            <fr:taxon>corollary</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">conditional</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> and every prime
+power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, conditional only on the published GMR2014 <fr:tex display="inline"><![CDATA[A_7]]></fr:tex> row.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> The address reduction turns <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> at <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex>
+into a per-cell statement, and <fr:link href="/ffi/ffi-0021/" title="(M8): the per-cell modality reduction at n = 8" uri="https://www.brendan.phd/ffi/ffi-0021/" display-uri="ffi-0021" type="local">(M8)</fr:link> discharges every
+cell. The two-moduli locus is exactly the four O4 ideals, which are
+Steinberg slices of involutions and therefore safe,
+characteristic-free.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0021/" title="(M8): the per-cell modality reduction at n = 8" uri="https://www.brendan.phd/ffi/ffi-0021/" display-uri="ffi-0021" type="local">(M8): the per-cell modality reduction at n = 8</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal cor:height-n8 (fifteenth and sixteenth passes);
+commit afdac1f.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0025/</fr:uri>
+            <fr:display-uri>ffi-0025</fr:display-uri>
+            <fr:route>/ffi/ffi-0025/</fr:route>
+            <fr:title text="Height at n = 9">Height at n = 9</fr:title>
+            <fr:taxon>corollary</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">conditional</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> and every prime
+power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, conditional on the published <fr:tex display="inline"><![CDATA[A_7]]></fr:tex> and <fr:tex display="inline"><![CDATA[A_8]]></fr:tex> modality rows
+and on the machine certificates below.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S)</fr:link> covers the violation locus and
+<fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link> closes its ledger; the three maximizers have
+<fr:tex display="inline"><![CDATA[\operatorname {lc} = 3]]></fr:tex> and are safe, so no violation survives. Exact address
+polynomials come from the GR cell engine.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S): the n = 9 reduction</fr:link>, <fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+): the ledger conjecture</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal cor:height-n9 (eighteenth pass); census53_cells.log,
+sweep16_rank.log; commit e8c7430.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0019/</fr:uri>
+            <fr:display-uri>ffi-0019</fr:display-uri>
+            <fr:route>/ffi/ffi-0019/</fr:route>
+            <fr:title text="Height at n ≤ 5">Height at n ≤ 5</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for every <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex> and
+every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> For <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex> the Borel has finitely many orbits on the
+nilradical (Kashiarov; Hille--Röhrle), so <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is not
+needed: the isotropy bound of <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">the orbital-variety theorem</fr:link>,
+plus at most one modulus of orbits, covers every <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable
+irreducible subvariety.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal sec:small-n; Kashiarov, Hille--Röhrle for the
+finiteness input.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0020/</fr:uri>
+            <fr:display-uri>ffi-0020</fr:display-uri>
+            <fr:route>/ffi/ffi-0020/</fr:route>
+            <fr:title text="Height at n ≤ 7">Height at n ≤ 7</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for every <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex> and
+every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, unconditionally.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> The modality theorem: <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{n}) = 1]]></fr:tex> for <fr:tex display="inline"><![CDATA[n = 6, 7]]></fr:tex>. With
+at most one modulus of <fr:tex display="inline"><![CDATA[B]]></fr:tex>-orbits on the nilradical, the
+two-moduli case of <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> never arises, so
+<fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">the orbital-variety theorem</fr:link> closes every subvariety. The
+modality inputs are published rows discharged against machine
+certificates (Goddard--Goodwin; GMR2).</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal thm:height-n7 (fourteenth pass); census 275/276/277
+plus the diamond; verified against Goddard--Goodwin and GMR2.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0009/</fr:uri>
+            <fr:display-uri>ffi-0009</fr:display-uri>
+            <fr:route>/ffi/ffi-0009/</fr:route>
+            <fr:title text="The height conjecture">The height conjecture</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
+  \operatorname {ht} J = \frac {n(n+1)}{2},
+  \qquad  \text {equivalently} \qquad 
+  \dim  V(J) = \frac {n(n - 1)}{2}:
+]]></fr:tex>
+the <fr:tex display="inline"><![CDATA[\frac {n(n+1)}{2}]]></fr:tex> invariants <fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})]]></fr:tex>,
+<fr:tex display="inline"><![CDATA[0 \le  i < j \le  n]]></fr:tex>, form a regular sequence in <fr:tex display="inline"><![CDATA[S]]></fr:tex> and extend to a
+homogeneous system of parameters. The conjectured dimension is <fr:tex display="inline"><![CDATA[\dim  \mathrm {Fl}]]></fr:tex> — up to dimension, the
+flag witnesses must be everything.</html:p>
+            <html:p><html:strong>Status.</html:strong> Proven for <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex>
+(<fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">height at <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex></fr:link>); for characteristic <fr:tex display="inline"><![CDATA[0]]></fr:tex>, every <fr:tex display="inline"><![CDATA[n]]></fr:tex>;
+for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[n]]></fr:tex>, ineffectively; and
+for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
+general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal thm:height-n7, thm:m8,
+cor:height-n8, cor:height-n9.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

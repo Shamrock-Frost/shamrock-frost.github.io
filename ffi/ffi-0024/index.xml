@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ffi/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/ffi/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.brendan.phd/ffi/ffi-0024/</fr:uri>
+    <fr:display-uri>ffi-0024</fr:display-uri>
+    <fr:route>/ffi/ffi-0024/</fr:route>
+    <fr:title text="(S+): the ledger conjecture">(S+): the ledger conjecture</fr:title>
+    <fr:taxon>conjecture</fr:taxon>
+    <fr:meta name="area">height</fr:meta>
+    <fr:meta name="status">proven</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>(S+). In the <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> ledger
+<fr:tex display="inline"><![CDATA[72 = 53 + \sum  c'_i + m_{\text {unknown}}]]></fr:tex>, <fr:tex display="block"><![CDATA[
+  \sum  c'_i = 19 \iff  m_{\text {unknown}} = 0,
+]]></fr:tex>
+and either side implies <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S)</fr:link>.</html:p>
+    <html:p><html:strong>Status.</html:strong> Stated as a conjecture during the seventeenth pass and
+discharged in the eighteenth: <fr:tex display="inline"><![CDATA[c' = [5, 7, 7]]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\sum  c'_i = 19]]></fr:tex>
+and the unknown count is zero. Kept as its own node because it is the
+hinge the <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> argument turns on, and because a <fr:tex display="inline"><![CDATA[n = 10]]></fr:tex> analogue
+is the natural next ledger.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S): the n = 9 reduction</fr:link>.</html:p>
+    <html:p>
+      <html:em>Provenance: journal subsec:seventeenth (statement), subsec:eighteenth
+(discharge); the jtype truncation bug found and fixed en route; commit
+e8c7430.</html:em>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0023/</fr:uri>
+            <fr:display-uri>ffi-0023</fr:display-uri>
+            <fr:route>/ffi/ffi-0023/</fr:route>
+            <fr:title text="(S): the n = 9 reduction">(S): the n = 9 reduction</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(S). At <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> the violation locus of <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is
+covered by finitely many identified loci, all of which are cold.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> Three layers, all machine-checked. <html:strong>Sweep census by
+involutions</html:strong>: 2620 classes, of which the three <fr:tex display="inline"><![CDATA[f = 3]]></fr:tex> classes are
+exactly the three maximizer tableaux (verified) and 51 carry <fr:tex display="inline"><![CDATA[f = 2]]></fr:tex>.
+<html:strong>Linear layer</html:strong>: 4862 ideals across 5 characteristics, all cold,
+including exact <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>; a covering theorem makes the finite check
+exhaustive. <html:strong>Cascade</html:strong>: 53 safe ten-moduli loci, with the boundary
+probe at layer 1 also cold.</html:p>
+            <html:p>The captured <fr:tex display="inline"><![CDATA[f = 2]]></fr:tex> case is killed characteristic-free by the
+cross-term and tangent lemmas, and <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{9}) = 3]]></fr:tex> characteristic-free,
+so no <fr:tex display="inline"><![CDATA[f = 3]]></fr:tex> violation is available either. The residual ledger is
+<fr:tex display="inline"><![CDATA[72 = 53 + \sum  c'_i + m_{\text {unknown}}]]></fr:tex>, closed by
+<fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal subsec:seventeenth and subsec:eighteenth;
+census53_cells.log (canonical, 53 addresses degree 10 lc 1 per
+characteristic), sweep16_rank.log (exact-<fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> ranks, 16
+nonlinear loci); commit e8c7430.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0025/</fr:uri>
+            <fr:display-uri>ffi-0025</fr:display-uri>
+            <fr:route>/ffi/ffi-0025/</fr:route>
+            <fr:title text="Height at n = 9">Height at n = 9</fr:title>
+            <fr:taxon>corollary</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">conditional</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> and every prime
+power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, conditional on the published <fr:tex display="inline"><![CDATA[A_7]]></fr:tex> and <fr:tex display="inline"><![CDATA[A_8]]></fr:tex> modality rows
+and on the machine certificates below.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S)</fr:link> covers the violation locus and
+<fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link> closes its ledger; the three maximizers have
+<fr:tex display="inline"><![CDATA[\operatorname {lc} = 3]]></fr:tex> and are safe, so no violation survives. Exact address
+polynomials come from the GR cell engine.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S): the n = 9 reduction</fr:link>, <fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+): the ledger conjecture</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal cor:height-n9 (eighteenth pass); census53_cells.log,
+sweep16_rank.log; commit e8c7430.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/sec-height/</fr:uri>
+            <fr:display-uri>sec-height</fr:display-uri>
+            <fr:route>/ffi/sec-height/</fr:route>
+            <fr:title text="finite-field-invariants: a reference forest › The height ladder"><fr:link href="/ffi/index/" title="finite-field-invariants: a reference forest" uri="https://www.brendan.phd/ffi/index/" display-uri="index" type="local">finite-field-invariants: a reference forest</fr:link> › The height ladder</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The conjecture is a theorem for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex>. Each rung is a
+  different mechanism, and the reductions that carry rungs 8 and 9 are
+  worth more than the rungs.</html:p>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">Height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link> — the milestone.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">Height at <fr:tex display="inline"><![CDATA[n \le  5]]></fr:tex></fr:link> — finitely many orbits.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">Height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> — the modality theorem,
+    unconditional.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0021/" title="(M8): the per-cell modality reduction at n = 8" uri="https://www.brendan.phd/ffi/ffi-0021/" display-uri="ffi-0021" type="local">(M8)</fr:link> — the address reduction at <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex>.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0022/" title="Height at n = 8" uri="https://www.brendan.phd/ffi/ffi-0022/" display-uri="ffi-0022" type="local">Height at <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex></fr:link> — pseudo-Levi collapse and the
+    torus defect.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S)</fr:link> — the reduction at <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex>.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link> — the ledger that would close it.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0025/" title="Height at n = 9" uri="https://www.brendan.phd/ffi/ffi-0025/" display-uri="ffi-0025" type="local">Height at <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex></fr:link> — the cascade.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0023/</fr:uri>
+            <fr:display-uri>ffi-0023</fr:display-uri>
+            <fr:route>/ffi/ffi-0023/</fr:route>
+            <fr:title text="(S): the n = 9 reduction">(S): the n = 9 reduction</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(S). At <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> the violation locus of <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is
+covered by finitely many identified loci, all of which are cold.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> Three layers, all machine-checked. <html:strong>Sweep census by
+involutions</html:strong>: 2620 classes, of which the three <fr:tex display="inline"><![CDATA[f = 3]]></fr:tex> classes are
+exactly the three maximizer tableaux (verified) and 51 carry <fr:tex display="inline"><![CDATA[f = 2]]></fr:tex>.
+<html:strong>Linear layer</html:strong>: 4862 ideals across 5 characteristics, all cold,
+including exact <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex>; a covering theorem makes the finite check
+exhaustive. <html:strong>Cascade</html:strong>: 53 safe ten-moduli loci, with the boundary
+probe at layer 1 also cold.</html:p>
+            <html:p>The captured <fr:tex display="inline"><![CDATA[f = 2]]></fr:tex> case is killed characteristic-free by the
+cross-term and tangent lemmas, and <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{9}) = 3]]></fr:tex> characteristic-free,
+so no <fr:tex display="inline"><![CDATA[f = 3]]></fr:tex> violation is available either. The residual ledger is
+<fr:tex display="inline"><![CDATA[72 = 53 + \sum  c'_i + m_{\text {unknown}}]]></fr:tex>, closed by
+<fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal subsec:seventeenth and subsec:eighteenth;
+census53_cells.log (canonical, 53 addresses degree 10 lc 1 per
+characteristic), sweep16_rank.log (exact-<fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> ranks, 16
+nonlinear loci); commit e8c7430.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

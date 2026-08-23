@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ffi/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/ffi/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.brendan.phd/ffi/ffi-0007/</fr:uri>
+    <fr:display-uri>ffi-0007</fr:display-uri>
+    <fr:route>/ffi/ffi-0007/</fr:route>
+    <fr:title text="Flag witnesses for the partner variety">Flag witnesses for the partner variety</fr:title>
+    <fr:taxon>proposition</fr:taxon>
+    <fr:meta name="area">foundations</fr:meta>
+    <fr:meta name="status">proven</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Let <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> be the strictly upper triangular matrices. Then <fr:tex display="block"><![CDATA[
+  \mathcal {FL} \coloneqq  \bigcup _{g \in  \mathrm {GL}_n(\mathbb {F}_q)} g \mathfrak {n} g^{-1}
+  \subseteq  V(J),
+]]></fr:tex>
+a finite union of linear subspaces of dimension <fr:tex display="inline"><![CDATA[\frac {n(n - 1)}{2}]]></fr:tex>, indexed
+by the <fr:tex display="inline"><![CDATA[\mathbb {F}_q]]></fr:tex>-rational complete flags.</html:p>
+    <html:p>More generally any nilpotent <fr:tex display="inline"><![CDATA[M]]></fr:tex> with <fr:tex display="inline"><![CDATA[[M, F(M)] = 0]]></fr:tex> lies in
+<fr:tex display="inline"><![CDATA[V(J)]]></fr:tex>, as does any <fr:tex display="inline"><![CDATA[M]]></fr:tex> such that <fr:tex display="inline"><![CDATA[M]]></fr:tex> and <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> are
+strictly triangular with respect to a common flag. For <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex> these
+mechanisms exhaust <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex>; already for <fr:tex display="inline"><![CDATA[n = 3]]></fr:tex> they do not,
+so the flag locus is not all of the partner variety — only,
+conjecturally, all of it up to dimension.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">The pencil criterion</fr:link>.</html:p>
+    <html:p>
+      <html:em>Provenance: journal sec:notflag (the <fr:tex display="inline"><![CDATA[n = 3]]></fr:tex> non-flag component is a
+cone over a twisted cubic); distilled.tex Part 1.</html:em>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0008/</fr:uri>
+            <fr:display-uri>ffi-0008</fr:display-uri>
+            <fr:route>/ffi/ffi-0008/</fr:route>
+            <fr:title text="The Krull bound: only the upper bound is open">The Krull bound: only the upper bound is open</fr:title>
+            <fr:taxon>proposition</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Krull's height theorem gives <fr:tex display="inline"><![CDATA[\operatorname {ht} J \le  \frac {n(n+1)}{2}]]></fr:tex>
+unconditionally, that is <fr:tex display="inline"><![CDATA[\dim  V(J) \ge  \frac {n(n - 1)}{2}]]></fr:tex>, and
+<fr:link href="/ffi/ffi-0007/" title="Flag witnesses for the partner variety" uri="https://www.brendan.phd/ffi/ffi-0007/" display-uri="ffi-0007" type="local">the flag witnesses</fr:link> attain that lower bound.</html:p>
+            <html:p><html:strong>Consequence.</html:strong> The whole content of <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link> is
+therefore an <html:em>upper</html:em> bound on <fr:tex display="inline"><![CDATA[\dim  V(J)]]></fr:tex>. The generators
+of <fr:tex display="inline"><![CDATA[J]]></fr:tex> extend to a homogeneous system of parameters if and only if the conjectured height
+holds.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0007/" title="Flag witnesses for the partner variety" uri="https://www.brendan.phd/ffi/ffi-0007/" display-uri="ffi-0007" type="local">Flag witnesses for the partner variety</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal sec:ideal.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/sec-foundations/</fr:uri>
+            <fr:display-uri>sec-foundations</fr:display-uri>
+            <fr:route>/ffi/sec-foundations/</fr:route>
+            <fr:title text="finite-field-invariants: a reference forest › Foundations"><fr:link href="/ffi/index/" title="finite-field-invariants: a reference forest" uri="https://www.brendan.phd/ffi/index/" display-uri="index" type="local">finite-field-invariants: a reference forest</fr:link> › Foundations</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>From the conjugation action to the statement of the height
+  conjecture.</html:p>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">The setup</fr:link> — the action, the characteristic
+    polynomial, Frobenius.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The <fr:tex display="inline"><![CDATA[q]]></fr:tex>-Steenrod operations</fr:link> — the operations, and
+    what they do to degrees.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link> — the one fact the program
+    runs on.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0004/" title="Polarizations and the trace-form generators" uri="https://www.brendan.phd/ffi/ffi-0004/" display-uri="ffi-0004" type="local">The polarizations</fr:link> — the sparse trace-form
+    generators.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link> — the ideal whose height is in
+    question.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">The pencil criterion</fr:link> — nilpotency to all orders in
+    the Frobenius direction.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0007/" title="Flag witnesses for the partner variety" uri="https://www.brendan.phd/ffi/ffi-0007/" display-uri="ffi-0007" type="local">The flag witnesses</fr:link> — the subvarieties that attain
+    the lower bound.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound</fr:link> — why the whole question is an upper
+    bound.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> — the conjecture itself.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> — what is actually left to prove.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0006/</fr:uri>
+            <fr:display-uri>ffi-0006</fr:display-uri>
+            <fr:route>/ffi/ffi-0006/</fr:route>
+            <fr:title text="The pencil criterion">The pencil criterion</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>: <fr:tex display="block"><![CDATA[
+  M \in  V(J) \iff  M + t F(M)
+  \text { is nilpotent for every } t \in  K.
+]]></fr:tex>
+Equivalently <fr:tex display="block"><![CDATA[
+  M \in  V(J) \iff 
+  \operatorname {span}_K \lbrace  M, F(M) \rbrace  \subseteq  \mathcal {N} :
+]]></fr:tex>
+<fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> is the locus of matrices <html:em>nilpotent to all orders
+in the Frobenius direction</html:em>. In particular
+<fr:tex display="inline"><![CDATA[F(V(J)) = V(J)]]></fr:tex>.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> Immediate from <fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">the evaluation identity</fr:link>: the
+coefficients of <fr:tex display="inline"><![CDATA[\chi _{M + tF(M)}]]></fr:tex> are the
+<fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})(M)]]></fr:tex>, so all of them vanish exactly when every
+member of the pencil is nilpotent.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link>, <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal sec:pencil.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ffi/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/ffi/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.brendan.phd/ffi/ffi-0051/</fr:uri>
+    <fr:display-uri>ffi-0051</fr:display-uri>
+    <fr:route>/ffi/ffi-0051/</fr:route>
+    <fr:title text="The anomaly law">The anomaly law</fr:title>
+    <fr:taxon>conjecture</fr:taxon>
+    <fr:meta name="area">symplectic</fr:meta>
+    <fr:meta name="avatar">3</fr:meta>
+    <fr:meta name="status">open</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>(anomaly law). Coisotropy of the survivor cocycle fails only at special
+characteristic-2 germs.</html:p>
+    <html:p><html:strong>Role in the skeleton.</html:strong> The law is the bookkeeping for why characteristic 2 is the sole
+obstruction to characteristic-free statements at germ scale — which
+germs are anomalous, and why only generic statements survive there.</html:p>
+    <html:p><html:strong>Status.</html:strong> Open. Measured on the <fr:tex display="inline"><![CDATA[D_4]]></fr:tex> moment-map probes. Consistent with
+the small-<fr:tex display="inline"><![CDATA[n]]></fr:tex> record: the one genuine counterexample to a
+naively-stated survivor identity in the whole program is over <fr:tex display="inline"><![CDATA[\mathbb {F}_q]]></fr:tex>
+with <fr:tex display="inline"><![CDATA[q = 2]]></fr:tex> at <fr:tex display="inline"><![CDATA[n = 5]]></fr:tex>.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1: coisotropy of the cyclic cocycle</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
+    <html:p>
+      <html:em>Provenance: journal passes 6--8 (variational identities, thresholds,
+anomaly law); distilled.tex Part 5.</html:em>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/sec-symplectic/</fr:uri>
+            <fr:display-uri>sec-symplectic</fr:display-uri>
+            <fr:route>/ffi/sec-symplectic/</fr:route>
+            <fr:title text="finite-field-invariants: a reference forest › The symplectic skeleton"><fr:link href="/ffi/index/" title="finite-field-invariants: a reference forest" uri="https://www.brendan.phd/ffi/index/" display-uri="index" type="local">finite-field-invariants: a reference forest</fr:link> › The symplectic skeleton</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>One idea at three scales. Avatar 1 is global, avatar 2 semi-local,
+  avatar 3 infinitesimal; the thesis is that each is the same statement
+  about half an orbit dimension.</html:p>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link> — the pairing everything is measured
+    in.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0012/" title="The three recurring numbers" uri="https://www.brendan.phd/ffi/ffi-0012/" display-uri="ffi-0012" type="local">The three numbers</fr:link> — centralizer, orbit, and the
+    half.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis</fr:link> — the thesis, and the three avatars.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link> — avatar 1,
+    proven.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0015/" title="Nilpotent pencils, drop points, the centralizer sheaf" uri="https://www.brendan.phd/ffi/ffi-0015/" display-uri="ffi-0015" type="local">The pencil apparatus</fr:link> — the semi-local apparatus.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link> — avatar 2, proven.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link> — avatar 3, the germ apparatus.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> — the bottom floor of the tower.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0051/" title="The anomaly law" uri="https://www.brendan.phd/ffi/ffi-0051/" display-uri="ffi-0051" type="local">The anomaly law</fr:link> — why characteristic 2.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0049/</fr:uri>
+            <fr:display-uri>ffi-0049</fr:display-uri>
+            <fr:route>/ffi/ffi-0049/</fr:route>
+            <fr:title text="The germ apparatus">The germ apparatus</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">symplectic</fr:meta>
+            <fr:meta name="avatar">3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:em>pencil germ</html:em> is a lattice over <fr:tex display="inline"><![CDATA[B = k\lbrack \lbrack  u \rbrack \rbrack \lbrack  u^{-1} \rbrack ]]></fr:tex>, a
+polynomial-type ring in one variable over the formal power series ring
+<fr:tex display="inline"><![CDATA[R = k\lbrack \lbrack  u \rbrack \rbrack ]]></fr:tex>. The <html:em>survivor algebra</html:em> of a germ carries
+a cyclic cocycle; that cocycle is the germ-scale avatar of the trace
+form.</html:p>
+            <html:p>The <html:em>exponent dictionary</html:em> computes its graded pieces: the
+dimension of the level-<fr:tex display="inline"><![CDATA[m]]></fr:tex> piece is <fr:tex display="block"><![CDATA[
+  r + \#\{\text {adjoint-torsion exponents of size} \ge  m\},
+]]></fr:tex>
+a consequence of the isomorphism <fr:tex display="inline"><![CDATA[\mathcal {C}_{P} \cong  \mathcal {O}]]></fr:tex>
+between the centralizer sheaf of the germ's pencil <fr:tex display="inline"><![CDATA[P]]></fr:tex> and the
+structure sheaf.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This is avatar 3 — <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">the thesis</fr:link> made infinitesimal.
+Avatar 2, the residue form <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex>, has its <fr:tex display="inline"><![CDATA[u]]></fr:tex>-adic
+bottom here. Coisotropy of the cocycle is <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link>; the
+attempt to upgrade it to a Lagrangian statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 5; journal passes 8--11 (exponent
+dictionary, component atlas).</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0017/</fr:uri>
+            <fr:display-uri>ffi-0017</fr:display-uri>
+            <fr:route>/ffi/ffi-0017/</fr:route>
+            <fr:title text="Wall 1: coisotropy of the cyclic cocycle">Wall 1: coisotropy of the cyclic cocycle</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">symplectic</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="avatar">3</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Wall 1. The cyclic cocycle carried by the survivor algebra of a
+pencil germ is coisotropic.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This is the bottom floor of the avatar tower: the germ-scale
+instance of <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">the thesis</fr:link>, and the fixed point from which
+<fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link> tries to upgrade coisotropy to the full Lagrangian
+statement. It is a theorem; the upgrade is not.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal pass 6--8 apparatus (Borel/Steinberg, Wall 1);
+distilled.tex Part 5.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

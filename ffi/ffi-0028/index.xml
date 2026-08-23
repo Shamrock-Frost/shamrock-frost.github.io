@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ffi/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/ffi/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.brendan.phd/ffi/ffi-0028/</fr:uri>
+    <fr:display-uri>ffi-0028</fr:display-uri>
+    <fr:route>/ffi/ffi-0028/</fr:route>
+    <fr:title text="U-modality">U-modality</fr:title>
+    <fr:taxon>definition</fr:taxon>
+    <fr:meta name="area">growth</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>For a <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible subvariety <fr:tex display="inline"><![CDATA[W \subseteq  \mathfrak {n}]]></fr:tex>,
+<fr:tex display="block"><![CDATA[
+  \operatorname {umod}(W) = \dim  W - \max _{y \in  W} \dim  U \cdot  y,
+]]></fr:tex>
+the dimension of the generic-orbit space; and <fr:tex display="inline"><![CDATA[\operatorname {umod}(w) =
+\operatorname {umod}(\overline {\text {genStr}(w)})]]></fr:tex> per sweep stratum.</html:p>
+    <html:p>For a composition <fr:tex display="inline"><![CDATA[c \vdash  n]]></fr:tex> with block sizes <fr:tex display="inline"><![CDATA[c_i]]></fr:tex>, write
+<fr:tex display="inline"><![CDATA[\operatorname {umod}(\mathfrak {n}_{c})]]></fr:tex> for the <fr:tex display="inline"><![CDATA[U]]></fr:tex>-modality of the parabolic
+nilradical slice. These parabolic values are the ones with a closed
+form: <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt)</fr:link>.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
+    <html:p>
+      <html:em>Provenance: journal sec:modality.</html:em>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0021/</fr:uri>
+            <fr:display-uri>ffi-0021</fr:display-uri>
+            <fr:route>/ffi/ffi-0021/</fr:route>
+            <fr:title text="(M8): the per-cell modality reduction at n = 8">(M8): the per-cell modality reduction at n = 8</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">height</fr:meta>
+            <fr:meta name="status">conditional</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(M8). Every cell of the <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> address decomposition has
+per-cell modality small enough that no cell can carry a violation of
+<fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> Two ingredients. <html:strong>Pseudo-Levi collapse</html:strong>: the per-cell
+modality satisfies <fr:tex display="inline"><![CDATA[M(8) = 1]]></fr:tex>, so each cell is a one-modulus problem of
+the kind <fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> already handles.
+<html:strong>Torus-defect dichotomy</html:strong>: a cell either has torus defect placing
+it below the threshold, or lies in the gap-7 regime where Lang--Weil
+against <fr:tex display="inline"><![CDATA[4v^9]]></fr:tex> excludes it. The two cases are exhaustive.</html:p>
+            <html:p><html:strong>Status.</html:strong> Proven by theory, conditional only on the published GMR2014 data
+for <fr:tex display="inline"><![CDATA[A_7]]></fr:tex> (degree 9, leading coefficient 4). The genericity step in
+pseudo_levi_gap.sage needs <fr:tex display="inline"><![CDATA[|F| \gtrsim  10^4]]></fr:tex> to be visible
+numerically; the argument itself is characteristic-free.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>, <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal thm:m8 (sixteenth pass); pseudo_levi_gap.sage
+all-pass; commit afdac1f.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0047/</fr:uri>
+            <fr:display-uri>ffi-0047</fr:display-uri>
+            <fr:route>/ffi/ffi-0047/</fr:route>
+            <fr:title text="(Q-MOD): the reductive repair">(Q-MOD): the reductive repair</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="thread">ns</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(Q-MOD). <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS)</fr:link> is equivalent to <fr:tex display="block"><![CDATA[
+  \operatorname {mod}(Q : \mathfrak {n}_{c}) \le  \operatorname {umod}(c'),
+  \qquad 
+  Q = U(L) \times  \mathrm {GL}(W) \times  U(R) \ltimes  N.
+]]></fr:tex></html:p>
+            <html:p><html:strong>Mechanism.</html:strong> Pass to a generic element and split off the reductive factor.
+The exact <fr:tex display="inline"><![CDATA[Q]]></fr:tex>-equivariant fibration then makes (Q-MOD) equivalent to
+<fr:tex display="inline"><![CDATA[T_1 + T_2 \le  \operatorname {mod}(A : B)]]></fr:tex>, where <fr:tex display="inline"><![CDATA[T_1]]></fr:tex> is a rank-<fr:tex display="inline"><![CDATA[v]]></fr:tex>
+determinantal modality. A bonus of the repair is <fr:tex display="inline"><![CDATA[z_q() = z_u()]]></fr:tex>, which
+is what turns the orbit ledger into <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS)</fr:link> in the first
+place.</html:p>
+            <html:p><html:strong>Status.</html:strong> Measured: 807 shapes, slack 0. The equivalence is proven; it has
+not closed <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS)</fr:link>.</html:p>
+            <html:p><html:strong>Warning.</html:strong> The naive <fr:tex display="inline"><![CDATA[LK_s]]></fr:tex> ledger is wrong. The exact coupling is
+<fr:tex display="inline"><![CDATA[\mathcal {V}_0^{\mathrm {Ext}} - v^2 = LK_z - LK_s]]></fr:tex>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>, <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS): the strict/centralizer inequality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: scratch_nineteenth.md Result 12 (the reductive repair).</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0041/</fr:uri>
+            <fr:display-uri>ffi-0041</fr:display-uri>
+            <fr:route>/ffi/ffi-0041/</fr:route>
+            <fr:title text="(TOP-X): rigidity of maximal modality">(TOP-X): rigidity of maximal modality</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(TOP-X). Every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex> with maximal
+<fr:tex display="inline"><![CDATA[\operatorname {umod}(W)]]></fr:tex> is dense in a maximizer sweep stratum.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This is what carries <fr:link href="/ffi/ffi-0040/" title="The M-law: the unimodal side of the leading-term law" uri="https://www.brendan.phd/ffi/ffi-0040/" display-uri="ffi-0040" type="local">the M-law</fr:link> across to <fr:tex display="inline"><![CDATA[\operatorname {lc} \kappa (U_{n})]]></fr:tex>:
+without it, the argmax count over parabolic nilradicals need not be the
+count of top-dimensional sweep strata, and
+<fr:link href="/ffi/ffi-0039/" title="The leading-term law" uri="https://www.brendan.phd/ffi/ffi-0039/" display-uri="ffi-0039" type="local">the leading-term law</fr:link> does not follow. It is the
+leading-coefficient twin of the rigidity statements the height ladder
+needs.</html:p>
+            <html:p><html:strong>Status.</html:strong> Proven for <fr:tex display="inline"><![CDATA[n \le  16]]></fr:tex> by Corollary F's squeeze — which is also
+why the leading-term law is verified exactly on the range where
+published values exist. Open in general.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: scratch_nineteenth.md route (a); Corollary F.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0042/</fr:uri>
+            <fr:display-uri>ffi-0042</fr:display-uri>
+            <fr:route>/ffi/ffi-0042/</fr:route>
+            <fr:title text="Splits, flanks, tallness">Splits, flanks, tallness</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="thread">ns</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:em>split</html:em> of a composition <fr:tex display="inline"><![CDATA[c = (c_L, v, c_R)]]></fr:tex>
+isolates a middle block of size <fr:tex display="inline"><![CDATA[v]]></fr:tex> — the longest part, +1 convention —
+with flanks <fr:tex display="inline"><![CDATA[c_L]]></fr:tex> and <fr:tex display="inline"><![CDATA[c_R]]></fr:tex>.</html:p>
+            <html:p>The split is <html:em>tall</html:em> if <fr:tex display="block"><![CDATA[
+  \max (c_L) \ge  v \quad  \text {and} \quad  \max (c_R) \ge  v,
+]]></fr:tex>
+and <html:em>dominated</html:em> if moreover <fr:tex display="inline"><![CDATA[c_L[-1] > v]]></fr:tex> and
+<fr:tex display="inline"><![CDATA[c_R[0] > v]]></fr:tex>. The three classes nest: dominated <fr:tex display="inline"><![CDATA[\subset ]]></fr:tex> dip
+<fr:tex display="inline"><![CDATA[\subset ]]></fr:tex> tall.</html:p>
+            <html:p>Write <fr:tex display="inline"><![CDATA[c']]></fr:tex> for the reductive quotient datum of a split, and
+<fr:tex display="inline"><![CDATA[\widetilde {L}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\widetilde {R}]]></fr:tex> for the flanks with the <fr:tex display="inline"><![CDATA[v]]></fr:tex> longest parts
+incremented — the modules <fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">the Fredholm ledger</fr:link> is computed
+in.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>, <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: result13_addendum.md 13(f)--(l).</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0029/</fr:uri>
+            <fr:display-uri>ffi-0029</fr:display-uri>
+            <fr:route>/ffi/ffi-0029/</fr:route>
+            <fr:title text="Theorem D: the modality cap">Theorem D: the modality cap</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Theorem D. For every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex>: <fr:tex display="block"><![CDATA[
+  \operatorname {umod}(W) \le  f_B(B \cdot  \overline {W}) + (n-1)
+            \le  \operatorname {mod}(B : \mathfrak {n}_{n}) + (n-1),
+]]></fr:tex>
+and consequently <fr:tex display="block"><![CDATA[\deg  \kappa (U_{n}) \le  (n-1) + \operatorname {mod}(B : \mathfrak {n}_{n})]]></fr:tex>
+unconditionally.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This is the bridge. It is what ties the growth program to the same
+Borel-orbit geometry that carries <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">the height conjecture</fr:link>: the
+invariant <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{n})]]></fr:tex> bounding Higman's degree is the same one the
+height ladder spends. Paired with the lower bound of
+<fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">the growth theorem</fr:link> it pins <fr:tex display="inline"><![CDATA[\deg  \kappa (U_{n})]]></fr:tex> from both sides,
+which is the content of <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>, <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: lc_law.md Theorem D.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0030/</fr:uri>
+            <fr:display-uri>ffi-0030</fr:display-uri>
+            <fr:route>/ffi/ffi-0030/</fr:route>
+            <fr:title text="z_u(c) and the modality formula">z_u(c) and the modality formula</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">growth</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Fix a composition <fr:tex display="inline"><![CDATA[c = (c_1, \dots , c_\ell )]]></fr:tex> of <fr:tex display="inline"><![CDATA[n]]></fr:tex> and let
+<fr:tex display="inline"><![CDATA[y \in  \mathfrak {n}_{c}]]></fr:tex> be <fr:tex display="inline"><![CDATA[B]]></fr:tex>-generic. Write <fr:tex display="block"><![CDATA[
+  z_u(c) = \dim (\mathfrak {z}(y) \cap  \mathfrak {u}),
+]]></fr:tex>
+the dimension of the centralizer of a generic element inside the upper
+triangular nilpotent Lie algebra.</html:p>
+            <html:p>For parabolic slices the modality is then <fr:tex display="block"><![CDATA[
+  \operatorname {umod}(\mathfrak {n}_{c}) = d_c - \frac {n(n - 1)}{2} + z_u(c),
+  \qquad  d_c = \sum _i c_i^2 - n,
+]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[d_c]]></fr:tex> adjusts the flag count. So computing <fr:tex display="inline"><![CDATA[\operatorname {umod}(\mathfrak {n}_{c})]]></fr:tex>
+is computing <fr:tex display="inline"><![CDATA[z_u(c)]]></fr:tex>, which is what <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">the graded count</fr:link>
+does.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: lc_law.md; journal sec:zu.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/sec-growth/</fr:uri>
+            <fr:display-uri>sec-growth</fr:display-uri>
+            <fr:route>/ffi/sec-growth/</fr:route>
+            <fr:title text="finite-field-invariants: a reference forest › The growth program"><fr:link href="/ffi/index/" title="finite-field-invariants: a reference forest" uri="https://www.brendan.phd/ffi/index/" display-uri="index" type="local">finite-field-invariants: a reference forest</fr:link> › The growth program</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Higman's class count, reached through the same Borel-orbit
+  geometry. The chain from the definition of modality to the leading
+  term of <fr:tex display="inline"><![CDATA[\kappa (U_{n})]]></fr:tex> is complete except for one inequality, and the
+  degree half of it is a theorem for every <fr:tex display="inline"><![CDATA[n]]></fr:tex>.</html:p>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count</fr:link> — Higman's program.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link> — modality of the Borel on its
+    nilradical.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local"><fr:tex display="inline"><![CDATA[U]]></fr:tex>-modality</fr:link> — modality of the unipotent
+    group.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D</fr:link> — the bridge to the class count.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local"><fr:tex display="inline"><![CDATA[z_u(c)]]></fr:tex></fr:link> — the generic centralizer dimension.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0031/" title="The thread algebra" uri="https://www.brendan.phd/ffi/ffi-0031/" display-uri="ffi-0031" type="local">The thread algebra</fr:link> — the algebra that computes it.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">The graded count</fr:link> — the graded count and the defect.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt)</fr:link> — the closed form.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4)</fr:link> — the maximum, and where it is attained.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5)</fr:link> — the off-unimodal extension.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6)</fr:link> — the collapse identity and the origin of
+    period 6.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">The growth theorem</fr:link> — the unconditional lower bound.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">The degree law</fr:link> — the degree.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0039/" title="The leading-term law" uri="https://www.brendan.phd/ffi/ffi-0039/" display-uri="ffi-0039" type="local">The leading-term law</fr:link> — the leading coefficient.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0040/" title="The M-law: the unimodal side of the leading-term law" uri="https://www.brendan.phd/ffi/ffi-0040/" display-uri="ffi-0040" type="local">The M-law</fr:link> — its proven half.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X)</fr:link> — the rigidity statement it needs.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0033/</fr:uri>
+            <fr:display-uri>ffi-0033</fr:display-uri>
+            <fr:route>/ffi/ffi-0033/</fr:route>
+            <fr:title text="(Deg-Opt): the grand formula for umod">(Deg-Opt): the grand formula for umod</fr:title>
+            <fr:taxon>theorem</fr:taxon>
+            <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="status">proven</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(Deg-Opt). For every composition <fr:tex display="inline"><![CDATA[c = (c_1, \dots , c_\ell )]]></fr:tex> of
+<fr:tex display="inline"><![CDATA[n]]></fr:tex>: <fr:tex display="block"><![CDATA[
+  \operatorname {umod}(\mathfrak {n}_{c}) = \frac {1}{2}\bigl [n + \sum _i c_i^2 - \sum  \Delta ^2\bigr ] + e_0(c),
+]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> ranges over all consecutive jumps of the zero-padded
+profile <fr:tex display="inline"><![CDATA[(0, c_1, \dots , c_\ell , 0)]]></fr:tex>, so that <fr:tex display="inline"><![CDATA[\sum  \Delta ^2]]></fr:tex> is the wall
+penalty and <fr:tex display="inline"><![CDATA[e_0(c)]]></fr:tex> the thread-algebra defect of
+<fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">the graded count</fr:link>.</html:p>
+            <html:p>The formula is exact and unimodal in <fr:tex display="inline"><![CDATA[c]]></fr:tex>. Its three inputs are
+<fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4)</fr:link> (the maximum), <fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5)</fr:link> (extension off the
+unimodal locus) and <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6)</fr:link> (the collapse identity and the
+period-6 structure).</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">The graded count for z_u (H4)</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>, <fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5): the grand formula off the unimodal locus</fr:link>,
+<fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: scratch_nineteenth.md, grand formula A theorem via H1--H12;
+machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex>).</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0027/</fr:uri>
+            <fr:display-uri>ffi-0027</fr:display-uri>
+            <fr:route>/ffi/ffi-0027/</fr:route>
+            <fr:title text="Borel modality">Borel modality</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="area">height</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For an algebraic group action, modality is the maximum number of
+parameters of orbits. Write <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{n})]]></fr:tex> for the modality of
+<fr:tex display="inline"><![CDATA[B = T \ltimes  U_{n}]]></fr:tex> acting on its nilradical
+<fr:tex display="inline"><![CDATA[\mathfrak {n}_{n}]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {mod}(Q : V)]]></fr:tex> for the analogous invariant of a
+parabolic or reductive factor <fr:tex display="inline"><![CDATA[Q]]></fr:tex> acting on a module <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</html:p>
+            <html:p>This is the one invariant both halves of the program share: it bounds
+<fr:tex display="inline"><![CDATA[\deg  \kappa (U_{n})]]></fr:tex> from above through <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D</fr:link>, and it is what the
+height ladder spends — <fr:tex display="inline"><![CDATA[\operatorname {mod}(B : \mathfrak {n}_{n}) = 1]]></fr:tex> is exactly why
+<fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> goes through and why <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> does
+not.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: journal sec:modality; published rows Goddard--Goodwin, GMR
+2014.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0001/</fr:uri>
+            <fr:display-uri>ffi-0001</fr:display-uri>
+            <fr:route>/ffi/ffi-0001/</fr:route>
+            <fr:title text="Setup: conjugation over a finite field">Setup: conjugation over a finite field</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Fix a prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, let <fr:tex display="inline"><![CDATA[k = \mathbb {F}_q]]></fr:tex> and let <fr:tex display="inline"><![CDATA[K = \overline {k}]]></fr:tex>.
+Let <fr:tex display="inline"><![CDATA[S = k[x_{ij} : 1 \le  i, j \le  n]]]></fr:tex> be the coordinate ring of
+<fr:tex display="inline"><![CDATA[\mathrm {M}_n = \mathrm {M}_{n \times  n}]]></fr:tex>, with generic matrix <fr:tex display="inline"><![CDATA[X = (x_{ij})]]></fr:tex>,
+carrying the conjugation action of <fr:tex display="inline"><![CDATA[G = \mathrm {GL}_n(k)]]></fr:tex>: the element
+<fr:tex display="inline"><![CDATA[\sigma  \in  G]]></fr:tex> maps the variables to the entries of
+<fr:tex display="inline"><![CDATA[\sigma ^{-1} X \sigma ]]></fr:tex>. The kernel of <fr:tex display="inline"><![CDATA[G \to  \mathrm {GL}(\mathrm {M}_n(k))]]></fr:tex> is the
+scalars, so the effective group is <fr:tex display="inline"><![CDATA[\widehat {G} \cong  \mathrm {PGL}_n(k)]]></fr:tex>, and
+the action is modular — not every invariant of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(k)]]></fr:tex> comes from
+<fr:tex display="inline"><![CDATA[S^G]]></fr:tex>.</html:p>
+            <html:p>The characteristic polynomial of <fr:tex display="inline"><![CDATA[X]]></fr:tex>: <fr:tex display="block"><![CDATA[
+  \chi _{X}(\lambda ) = \lambda ^n - c_{1} \lambda ^{n-1}
+  + c_{2} \lambda ^{n-2} - \cdots  + (-1)^n c_{n},
+  \qquad  c_{j} \in  S^G, \quad  \deg  c_{j} = j.
+]]></fr:tex>
+So <fr:tex display="inline"><![CDATA[c_{1} = \operatorname {tr} X]]></fr:tex> and <fr:tex display="inline"><![CDATA[c_{n} = \det  X]]></fr:tex>, and
+<fr:tex display="inline"><![CDATA[S^G = k[c_{1}, \dots , c_{n}]]]></fr:tex>.</html:p>
+            <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> is the entrywise Frobenius
+<fr:tex display="inline"><![CDATA[(m_{ij}) \mapsto  (m_{ij}^q)]]></fr:tex>. Since the <fr:tex display="inline"><![CDATA[q]]></fr:tex>-power map is a ring
+endomorphism of <fr:tex display="inline"><![CDATA[K]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a ring endomorphism of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(K)]]></fr:tex>,
+bijective because Frobenius is surjective on the algebraically closed
+<fr:tex display="inline"><![CDATA[K]]></fr:tex>; in particular <fr:tex display="inline"><![CDATA[F]]></fr:tex> preserves and reflects nilpotency. Write
+<fr:tex display="inline"><![CDATA[\mathcal {N} \subset  \mathrm {M}_n(K)]]></fr:tex> for the nilpotent cone.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

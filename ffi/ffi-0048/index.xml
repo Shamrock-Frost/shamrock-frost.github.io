@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ffi/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/ffi/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:uri>https://www.brendan.phd/ffi/ffi-0048/</fr:uri>
+    <fr:display-uri>ffi-0048</fr:display-uri>
+    <fr:route>/ffi/ffi-0048/</fr:route>
+    <fr:title text="The peeling induction">The peeling induction</fr:title>
+    <fr:taxon>theorem</fr:taxon>
+    <fr:meta name="area">frontier</fr:meta>
+    <fr:meta name="thread">ns</fr:meta>
+    <fr:meta name="status">proven</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p><fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS)</fr:link> reduces to two one-peel local comparisons: <fr:tex display="block"><![CDATA[
+  \text {(C1)} \quad  \mathrm {ex}_{s} \le  \mathrm {ex}_{z},
+  \qquad 
+  \text {(C2)} \quad  q_{s} \le  q_{z}.
+]]></fr:tex></html:p>
+    <html:p><html:strong>Mechanism.</html:strong> Exact one-peel ladders
+<fr:tex display="inline"><![CDATA[N(\text {big}) = N(\text {small}) + \mathrm {ex} + q]]></fr:tex>: a zero-<fr:tex display="inline"><![CDATA[e]]></fr:tex> row makes
+the pairing factor through the restriction <fr:tex display="inline"><![CDATA[B \to  B_0]]></fr:tex>, and
+<fr:tex display="inline"><![CDATA[N(\text {big}) \cap  \text {over-}R_0 = W]]></fr:tex> exactly. The excess obeys the
+automatic cap
+<fr:tex display="inline"><![CDATA[\mathrm {ex} \le  \operatorname {codim} \operatorname {res} B]]></fr:tex> and, precisely, <fr:tex display="block"><![CDATA[
+  \mathrm {ex} = \operatorname {codim} - \dim ((S\text {-set} + \operatorname {res} B)/\operatorname {res} B),
+]]></fr:tex>
+so (C1) is equivalent to <fr:tex display="inline"><![CDATA[S_0 \subseteq  S_0^{s} + \operatorname {res} B]]></fr:tex>. The kernel
+moves in lockstep, <fr:tex display="inline"><![CDATA[dN_z = dN_w = dN_s]]></fr:tex>, measured at every peel, and
+the 3-block case of <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link> is the base.</html:p>
+    <html:p><html:strong>Status.</html:strong> Both comparisons hold with equality at all 28 measured peels.
+The saturation shortcut (I1) — <fr:tex display="inline"><![CDATA[\mathrm {ex}_{z} = \operatorname {codim} \operatorname {res} B]]></fr:tex> — holds at
+flank length 2 but is <html:strong>refuted</html:strong> at length <fr:tex display="inline"><![CDATA[\ge  3]]></fr:tex> (mb_k3),
+exactly where <fr:tex display="inline"><![CDATA[S_0 \not \subseteq  \operatorname {res} B]]></fr:tex>; the equivalence (I1)
+<fr:tex display="inline"><![CDATA[\iff ]]></fr:tex> <fr:tex display="inline"><![CDATA[S_0 \subseteq  \operatorname {res} B]]></fr:tex> does stand. The rigidity calculus
+gives <fr:tex display="inline"><![CDATA[S_0 = \operatorname {rig}(\Xi _A)]]></fr:tex>, tight 20/20 by a tangent argument, with
+<fr:tex display="inline"><![CDATA[x \cdot  \operatorname {soc} R_0 = 0]]></fr:tex> proven by corner probes; the
+dual-symmetry and <fr:tex display="inline"><![CDATA[Q_0]]></fr:tex>-cap routes are refuted.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link>, <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS): the strict/centralizer inequality</fr:link>.</html:p>
+    <html:p>
+      <html:em>Provenance: scratch_nineteenth.md item 15(f); instruments mb_fiber,
+mb_peel, mb_peelpair, mb_s0, mb_i2, mb_q0, mb_grade, mb_k3, mb_s0s.</html:em>
+    </html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0045/</fr:uri>
+            <fr:display-uri>ffi-0045</fr:display-uri>
+            <fr:route>/ffi/ffi-0045/</fr:route>
+            <fr:title text="(NS): the strict/centralizer inequality">(NS): the strict/centralizer inequality</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="thread">ns</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(NS). <fr:tex display="block"><![CDATA[
+  N_{\mathrm {strict}} \le  N_z,
+]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[N_{\mathrm {strict}}]]></fr:tex> is the nullity of the pairing on honest strict
+Hom-triples and <fr:tex display="inline"><![CDATA[N_z]]></fr:tex> the centralizer-side count.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This is the sole residue of the whole chain. By the exact ledger
+<fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">the Fredholm ledger</fr:link>, multi-block <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link> follows
+from it; and <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link> is the last open input to
+<fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5)</fr:link>, hence to <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt)</fr:link>. Everything else in the
+growth program is proven.</html:p>
+            <html:p><html:strong>Status.</html:strong> Measured with equality, <fr:tex display="inline"><![CDATA[N_{\mathrm {strict}} = N_z]]></fr:tex>, 13/13 (mb_dual.sage).
+Two independent reductions exist and neither has closed it:
+<fr:link href="/ffi/ffi-0047/" title="(Q-MOD): the reductive repair" uri="https://www.brendan.phd/ffi/ffi-0047/" display-uri="ffi-0047" type="local">(Q-MOD)</fr:link> and <fr:link href="/ffi/ffi-0048/" title="The peeling induction" uri="https://www.brendan.phd/ffi/ffi-0048/" display-uri="ffi-0048" type="local">the peeling induction</fr:link>.</html:p>
+            <html:p><html:strong>Warning.</html:strong> ns_elim_defs.sage as committed is the pre-fix draft. Measure
+(NS) only through ns_clean.sage or mb_dual.sage until it is
+repaired.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits, flanks, tallness</fr:link>, <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link>, <fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">The Fredholm ledger</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: scratch_nineteenth.md Result 13, items 15(e)--(f);
+result13_addendum.md; instruments ns_*.sage, mb_*.sage.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/sec-frontier/</fr:uri>
+            <fr:display-uri>sec-frontier</fr:display-uri>
+            <fr:route>/ffi/sec-frontier/</fr:route>
+            <fr:title text="finite-field-invariants: a reference forest › The frontier"><fr:link href="/ffi/index/" title="finite-field-invariants: a reference forest" uri="https://www.brendan.phd/ffi/index/" display-uri="index" type="local">finite-field-invariants: a reference forest</fr:link> › The frontier</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Two live fronts. The (NS) chain is the sole residue of the growth
+  program; the germ-scale front is where the wall program ran out, and
+  is kept on the record because what it refuted is load-bearing.</html:p>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits and tallness</fr:link> — splits, flanks, tallness.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link> — false as stated.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0044/" title="Tall-Lemma V" uri="https://www.brendan.phd/ffi/ffi-0044/" display-uri="ffi-0044" type="local">Tall-Lemma V</fr:link> — true where it matters.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS)</fr:link> — the open inequality.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">The Fredholm ledger</fr:link> — the exact ledger.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0047/" title="(Q-MOD): the reductive repair" uri="https://www.brendan.phd/ffi/ffi-0047/" display-uri="ffi-0047" type="local">(Q-MOD)</fr:link> — the first reduction.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0048/" title="The peeling induction" uri="https://www.brendan.phd/ffi/ffi-0048/" display-uri="ffi-0048" type="local">The peeling induction</fr:link> — the second reduction.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link> — refuted from <fr:tex display="inline"><![CDATA[n = 6]]></fr:tex>.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0052/" title="(L2): decreasing monomial germs are vacuous" uri="https://www.brendan.phd/ffi/ffi-0052/" display-uri="ffi-0052" type="local">(L2)</fr:link> — proven.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0053/" title="(L3): the vacuity family" uri="https://www.brendan.phd/ffi/ffi-0053/" display-uri="ffi-0053" type="local">(L3)</fr:link> — refuted, and productive.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0045/</fr:uri>
+            <fr:display-uri>ffi-0045</fr:display-uri>
+            <fr:route>/ffi/ffi-0045/</fr:route>
+            <fr:title text="(NS): the strict/centralizer inequality">(NS): the strict/centralizer inequality</fr:title>
+            <fr:taxon>conjecture</fr:taxon>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="thread">ns</fr:meta>
+            <fr:meta name="status">open</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>(NS). <fr:tex display="block"><![CDATA[
+  N_{\mathrm {strict}} \le  N_z,
+]]></fr:tex>
+where <fr:tex display="inline"><![CDATA[N_{\mathrm {strict}}]]></fr:tex> is the nullity of the pairing on honest strict
+Hom-triples and <fr:tex display="inline"><![CDATA[N_z]]></fr:tex> the centralizer-side count.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This is the sole residue of the whole chain. By the exact ledger
+<fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">the Fredholm ledger</fr:link>, multi-block <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link> follows
+from it; and <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link> is the last open input to
+<fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5)</fr:link>, hence to <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt)</fr:link>. Everything else in the
+growth program is proven.</html:p>
+            <html:p><html:strong>Status.</html:strong> Measured with equality, <fr:tex display="inline"><![CDATA[N_{\mathrm {strict}} = N_z]]></fr:tex>, 13/13 (mb_dual.sage).
+Two independent reductions exist and neither has closed it:
+<fr:link href="/ffi/ffi-0047/" title="(Q-MOD): the reductive repair" uri="https://www.brendan.phd/ffi/ffi-0047/" display-uri="ffi-0047" type="local">(Q-MOD)</fr:link> and <fr:link href="/ffi/ffi-0048/" title="The peeling induction" uri="https://www.brendan.phd/ffi/ffi-0048/" display-uri="ffi-0048" type="local">the peeling induction</fr:link>.</html:p>
+            <html:p><html:strong>Warning.</html:strong> ns_elim_defs.sage as committed is the pre-fix draft. Measure
+(NS) only through ns_clean.sage or mb_dual.sage until it is
+repaired.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits, flanks, tallness</fr:link>, <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link>, <fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">The Fredholm ledger</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: scratch_nineteenth.md Result 13, items 15(e)--(f);
+result13_addendum.md; instruments ns_*.sage, mb_*.sage.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0043/</fr:uri>
+            <fr:display-uri>ffi-0043</fr:display-uri>
+            <fr:route>/ffi/ffi-0043/</fr:route>
+            <fr:title text="Lemma V">Lemma V</fr:title>
+            <fr:taxon>lemma</fr:taxon>
+            <fr:meta name="area">frontier</fr:meta>
+            <fr:meta name="thread">ns</fr:meta>
+            <fr:meta name="status">refuted</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Lemma V, as originally stated: for a split
+<fr:tex display="inline"><![CDATA[c = (c_L, v, c_R)]]></fr:tex> with reductive quotient data
+<fr:tex display="inline"><![CDATA[c']]></fr:tex>, <fr:tex display="block"><![CDATA[
+  z_u(c) \le  z_u(c') + v^2.
+]]></fr:tex></html:p>
+            <html:p><html:strong>Status.</html:strong> <html:strong>False as stated</html:strong> over all splits: 958 counterexample
+splits in umod_tables.tsv at <fr:tex display="inline"><![CDATA[n \le  12]]></fr:tex>. The smallest is
+<fr:tex display="inline"><![CDATA[c = (1,2,3,1)]]></fr:tex> split as <fr:tex display="inline"><![CDATA[(1) \mid  (2) \mid  (3,1)]]></fr:tex>, where
+<fr:tex display="inline"><![CDATA[11 > 6 + 4]]></fr:tex>.</html:p>
+            <html:p>Two regimes survive and are proven. All 3-block splits <fr:tex display="inline"><![CDATA[(a, v, b)]]></fr:tex> —
+H17<fr:tex display="inline"><![CDATA[']]></fr:tex>, five sub-lemmas: <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-avoidance (V-t<fr:tex display="inline"><![CDATA[']]></fr:tex>) giving
+<fr:tex display="inline"><![CDATA[\dim  K \le  z']]></fr:tex> with equality; the decomposition
+<fr:tex display="inline"><![CDATA[K = x_{XY} \oplus  K_0]]></fr:tex>; and a quotient-restriction injection into
+intertwiners whose kernel is killed by the
+<fr:tex display="inline"><![CDATA[\binom {v}{2} + \binom {v}{2}]]></fr:tex> against <fr:tex display="inline"><![CDATA[v^2]]></fr:tex> count, with
+<fr:tex display="inline"><![CDATA[\text {intw} = \binom {|a-b|}{2}]]></fr:tex>. And the tall regime,
+<fr:link href="/ffi/ffi-0044/" title="Tall-Lemma V" uri="https://www.brendan.phd/ffi/ffi-0044/" display-uri="ffi-0044" type="local">Tall-Lemma V</fr:link>.</html:p>
+            <html:p><html:strong>Warning.</html:strong> The old condition (V-t) <html:em>fails</html:em> when <fr:tex display="inline"><![CDATA[|a - b| \ge  2]]></fr:tex>, at
+<fr:tex display="inline"><![CDATA[\binom {|a-b|}{2}]]></fr:tex>; (V-t<fr:tex display="inline"><![CDATA[']]></fr:tex>) is its repair. (V-t<fr:tex display="inline"><![CDATA[']]></fr:tex>) is itself false
+in the multi-block setting, and <fr:tex display="inline"><![CDATA[\mathcal {V}_0 \le  v^2]]></fr:tex> holds only for
+the <fr:tex display="inline"><![CDATA[\mathfrak {k}]]></fr:tex>-version.</html:p>
+            <html:p><html:em>Superseded by:</html:em> <fr:link href="/ffi/ffi-0044/" title="Tall-Lemma V" uri="https://www.brendan.phd/ffi/ffi-0044/" display-uri="ffi-0044" type="local">Tall-Lemma V</fr:link> for the tall regime; <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS): the strict/centralizer inequality</fr:link> for the
+general case.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits, flanks, tallness</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: result13_addendum.md; certificates p5_vtprime (EQUALITY),
+p5_lemmaV_asym; p5_vt_check's "FAILURES" line reports the superseded
+condition only.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
