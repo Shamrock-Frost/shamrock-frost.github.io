@@ -23,7 +23,7 @@ symplectic structure in the program. The Kostant--Kirillov form <fr:tex display=
 that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
 <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
-    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+    <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
     <html:p>
       <html:em>Provenance: distilled.tex sec:kk-lagrangian.</html:em>
     </html:p>
@@ -143,6 +143,38 @@ purely <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariet
             <html:p>
               <html:em>Provenance: distilled.tex sec:kk-lagrangian; journal pass 6--8
 apparatus; machine censuses N13--N19 in experiments/pencil_ideal.sage.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0055/</fr:uri>
+            <fr:display-uri>ffi-0055</fr:display-uri>
+            <fr:route>/ffi/ffi-0055/</fr:route>
+            <fr:title text="The entrywise Frobenius">The entrywise Frobenius</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, write <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> for the <html:em>entrywise
+Frobenius</html:em> <fr:tex display="inline"><![CDATA[(m_{ij}) \mapsto  (m_{ij}^q)]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a bijective
+ring endomorphism of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(K)]]></fr:tex> which preserves and reflects
+nilpotency, so <fr:tex display="inline"><![CDATA[F(\mathcal {N}) = \mathcal {N}]]></fr:tex>.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> The <fr:tex display="inline"><![CDATA[q]]></fr:tex>-power map is a ring endomorphism of <fr:tex display="inline"><![CDATA[K]]></fr:tex>; its
+additivity in characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> is what makes it compatible with
+matrix multiplication, and it is bijective because Frobenius is
+surjective on the algebraically closed <fr:tex display="inline"><![CDATA[K]]></fr:tex>. A bijective ring
+endomorphism carries nilpotents to nilpotents both ways.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the direction in which the whole program deforms.
+<fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link> reads the <fr:tex display="inline"><![CDATA[q]]></fr:tex>-Steenrod operations
+off the pencil <fr:tex display="inline"><![CDATA[M + T F(M)]]></fr:tex>, and <fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">the pencil criterion</fr:link>
+turns membership in <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> into nilpotency of every member of
+that pencil. It is also the twist that makes <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>
+identify <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
             </html:p>
           </fr:mainmatter>
         </fr:tree>
@@ -357,23 +389,50 @@ Let <fr:tex display="inline"><![CDATA[S = k[x_{ij} : 1 \le  i, j \le  n]]]></fr:
 <fr:tex display="inline"><![CDATA[\mathrm {M}_n = \mathrm {M}_{n \times  n}]]></fr:tex>, with generic matrix <fr:tex display="inline"><![CDATA[X = (x_{ij})]]></fr:tex>,
 carrying the conjugation action of <fr:tex display="inline"><![CDATA[G = \mathrm {GL}_n(k)]]></fr:tex>: the element
 <fr:tex display="inline"><![CDATA[\sigma  \in  G]]></fr:tex> maps the variables to the entries of
-<fr:tex display="inline"><![CDATA[\sigma ^{-1} X \sigma ]]></fr:tex>. The kernel of <fr:tex display="inline"><![CDATA[G \to  \mathrm {GL}(\mathrm {M}_n(k))]]></fr:tex> is the
-scalars, so the effective group is <fr:tex display="inline"><![CDATA[\widehat {G} \cong  \mathrm {PGL}_n(k)]]></fr:tex>, and
-the action is modular — not every invariant of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(k)]]></fr:tex> comes from
-<fr:tex display="inline"><![CDATA[S^G]]></fr:tex>.</html:p>
-            <html:p>The characteristic polynomial of <fr:tex display="inline"><![CDATA[X]]></fr:tex>: <fr:tex display="block"><![CDATA[
-  \chi _{X}(\lambda ) = \lambda ^n - c_{1} \lambda ^{n-1}
-  + c_{2} \lambda ^{n-2} - \cdots  + (-1)^n c_{n},
-  \qquad  c_{j} \in  S^G, \quad  \deg  c_{j} = j.
-]]></fr:tex>
-So <fr:tex display="inline"><![CDATA[c_{1} = \operatorname {tr} X]]></fr:tex> and <fr:tex display="inline"><![CDATA[c_{n} = \det  X]]></fr:tex>, and
-<fr:tex display="inline"><![CDATA[S^G = k[c_{1}, \dots , c_{n}]]]></fr:tex>.</html:p>
-            <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> is the entrywise Frobenius
-<fr:tex display="inline"><![CDATA[(m_{ij}) \mapsto  (m_{ij}^q)]]></fr:tex>. Since the <fr:tex display="inline"><![CDATA[q]]></fr:tex>-power map is a ring
-endomorphism of <fr:tex display="inline"><![CDATA[K]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a ring endomorphism of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(K)]]></fr:tex>,
-bijective because Frobenius is surjective on the algebraically closed
-<fr:tex display="inline"><![CDATA[K]]></fr:tex>; in particular <fr:tex display="inline"><![CDATA[F]]></fr:tex> preserves and reflects nilpotency. Write
-<fr:tex display="inline"><![CDATA[\mathcal {N} \subset  \mathrm {M}_n(K)]]></fr:tex> for the nilpotent cone.</html:p>
+<fr:tex display="inline"><![CDATA[\sigma ^{-1} X \sigma ]]></fr:tex>. Write <fr:tex display="inline"><![CDATA[\mathcal {N} \subset  \mathrm {M}_n(K)]]></fr:tex> for the
+nilpotent cone.</html:p>
+            <html:p>The kernel of <fr:tex display="inline"><![CDATA[G \to  \mathrm {GL}(\mathrm {M}_n(k))]]></fr:tex> is the scalars, so the
+effective group is <fr:tex display="inline"><![CDATA[\widehat {G} \cong  \mathrm {PGL}_n(k)]]></fr:tex>. For <fr:tex display="inline"><![CDATA[n \ge  2]]></fr:tex> the
+order of <fr:tex display="inline"><![CDATA[\widehat {G}]]></fr:tex> is divisible by the characteristic of <fr:tex display="inline"><![CDATA[k]]></fr:tex>, so
+the action is <html:em>modular</html:em>: there is no Reynolds operator, and the
+classical non-modular invariant theory does not apply.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> This node fixes only the ambient objects and the group. The two
+things the setup produces —
+<fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">the characteristic polynomial coefficients</fr:link> and
+<fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link> — are separate statements, because
+almost every downstream node rests on one of them and not on the other.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0055/</fr:uri>
+            <fr:display-uri>ffi-0055</fr:display-uri>
+            <fr:route>/ffi/ffi-0055/</fr:route>
+            <fr:title text="The entrywise Frobenius">The entrywise Frobenius</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, write <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> for the <html:em>entrywise
+Frobenius</html:em> <fr:tex display="inline"><![CDATA[(m_{ij}) \mapsto  (m_{ij}^q)]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a bijective
+ring endomorphism of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(K)]]></fr:tex> which preserves and reflects
+nilpotency, so <fr:tex display="inline"><![CDATA[F(\mathcal {N}) = \mathcal {N}]]></fr:tex>.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> The <fr:tex display="inline"><![CDATA[q]]></fr:tex>-power map is a ring endomorphism of <fr:tex display="inline"><![CDATA[K]]></fr:tex>; its
+additivity in characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> is what makes it compatible with
+matrix multiplication, and it is bijective because Frobenius is
+surjective on the algebraically closed <fr:tex display="inline"><![CDATA[K]]></fr:tex>. A bijective ring
+endomorphism carries nilpotents to nilpotents both ways.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the direction in which the whole program deforms.
+<fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link> reads the <fr:tex display="inline"><![CDATA[q]]></fr:tex>-Steenrod operations
+off the pencil <fr:tex display="inline"><![CDATA[M + T F(M)]]></fr:tex>, and <fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">the pencil criterion</fr:link>
+turns membership in <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> into nilpotency of every member of
+that pencil. It is also the twist that makes <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>
+identify <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
             <html:p>
               <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
             </html:p>

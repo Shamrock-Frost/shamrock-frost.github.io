@@ -87,6 +87,38 @@ cone over a twisted cubic); distilled.tex Part 1.</html:em>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors />
+            <fr:uri>https://www.brendan.phd/ffi/ffi-0055/</fr:uri>
+            <fr:display-uri>ffi-0055</fr:display-uri>
+            <fr:route>/ffi/ffi-0055/</fr:route>
+            <fr:title text="The entrywise Frobenius">The entrywise Frobenius</fr:title>
+            <fr:taxon>definition</fr:taxon>
+            <fr:meta name="area">foundations</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, write <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> for the <html:em>entrywise
+Frobenius</html:em> <fr:tex display="inline"><![CDATA[(m_{ij}) \mapsto  (m_{ij}^q)]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a bijective
+ring endomorphism of <fr:tex display="inline"><![CDATA[\mathrm {M}_n(K)]]></fr:tex> which preserves and reflects
+nilpotency, so <fr:tex display="inline"><![CDATA[F(\mathcal {N}) = \mathcal {N}]]></fr:tex>.</html:p>
+            <html:p><html:strong>Mechanism.</html:strong> The <fr:tex display="inline"><![CDATA[q]]></fr:tex>-power map is a ring endomorphism of <fr:tex display="inline"><![CDATA[K]]></fr:tex>; its
+additivity in characteristic <fr:tex display="inline"><![CDATA[p]]></fr:tex> is what makes it compatible with
+matrix multiplication, and it is bijective because Frobenius is
+surjective on the algebraically closed <fr:tex display="inline"><![CDATA[K]]></fr:tex>. A bijective ring
+endomorphism carries nilpotents to nilpotents both ways.</html:p>
+            <html:p><html:strong>Role in the skeleton.</html:strong> <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the direction in which the whole program deforms.
+<fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link> reads the <fr:tex display="inline"><![CDATA[q]]></fr:tex>-Steenrod operations
+off the pencil <fr:tex display="inline"><![CDATA[M + T F(M)]]></fr:tex>, and <fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">the pencil criterion</fr:link>
+turns membership in <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> into nilpotency of every member of
+that pencil. It is also the twist that makes <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>
+identify <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+            <html:p>
+              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
+            </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
             <fr:uri>https://www.brendan.phd/ffi/sec-foundations/</fr:uri>
             <fr:display-uri>sec-foundations</fr:display-uri>
             <fr:route>/ffi/sec-foundations/</fr:route>
@@ -95,8 +127,12 @@ cone over a twisted cubic); distilled.tex Part 1.</html:em>
           <fr:mainmatter>
             <html:p>From the conjugation action to the statement of the height
   conjecture.</html:p>
-            <html:ul><html:li><fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">The setup</fr:link> — the action, the characteristic
-    polynomial, Frobenius.</html:li>
+            <html:ul><html:li><fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">The setup</fr:link> — the ambient objects, the conjugation
+    action, and why it is modular.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">The characteristic polynomial coefficients</fr:link> — the
+    <fr:tex display="inline"><![CDATA[n]]></fr:tex> invariants the whole program takes as input.</html:li>
+    <html:li><fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link> — the direction everything
+    deforms in.</html:li>
     <html:li><fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The <fr:tex display="inline"><![CDATA[q]]></fr:tex>-Steenrod operations</fr:link> — the operations, and
     what they do to degrees.</html:li>
     <html:li><fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link> — the one fact the program
@@ -145,7 +181,7 @@ the omitted Steenrod powers contribute nothing, so <fr:tex display="inline"><![C
 the common zero locus of <html:em>all</html:em> <fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})]]></fr:tex>,
 <fr:tex display="inline"><![CDATA[i \ge  0]]></fr:tex>. For <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex> the ideal is exactly Maithani's primary ideal
 <fr:tex display="inline"><![CDATA[(\operatorname {tr}, \det , \mathcal {P}^{1}(\det ))]]></fr:tex> up to the orbit product.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0004/" title="Polarizations and the trace-form generators" uri="https://www.brendan.phd/ffi/ffi-0004/" display-uri="ffi-0004" type="local">Polarizations and the trace-form generators</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0004/" title="Polarizations and the trace-form generators" uri="https://www.brendan.phd/ffi/ffi-0004/" display-uri="ffi-0004" type="local">Polarizations and the trace-form generators</fr:link>, <fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">The characteristic polynomial coefficients</fr:link>.</html:p>
             <html:p>
               <html:em>Provenance: Maithani 2025 for <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex>; journal sec:ideal.</html:em>
             </html:p>
@@ -172,7 +208,7 @@ evaluation. This one line is what the whole height program runs on:
 <html:em>Steenrod operations are deformation calculus in the Frobenius
 direction</html:em>. Every subsequent statement about <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> — the
 pencil criterion, the flag witnesses — is read off it.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
             <html:p>
               <html:em>Provenance: distilled.tex Part 1; journal sec:steenrod.</html:em>
             </html:p>

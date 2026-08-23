@@ -193,7 +193,7 @@ symplectic structure in the program. The Kostant--Kirillov form <fr:tex display=
 that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
 <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
             <html:p>
               <html:em>Provenance: distilled.tex sec:kk-lagrangian.</html:em>
             </html:p>
@@ -388,7 +388,7 @@ symplectic structure in the program. The Kostant--Kirillov form <fr:tex display=
 that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">orbital varieties Lagrangian</fr:link>, the residue form
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
 <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
-            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
+            <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
             <html:p>
               <html:em>Provenance: distilled.tex sec:kk-lagrangian.</html:em>
             </html:p>
