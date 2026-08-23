@@ -9,6 +9,7 @@
     <fr:title text="The entrywise Frobenius">The entrywise Frobenius</fr:title>
     <fr:taxon>definition</fr:taxon>
     <fr:meta name="area">foundations</fr:meta>
+    <fr:meta name="provenance">distilled.tex Part 1; journal sec:setup.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, write <fr:tex display="inline"><![CDATA[F(M)]]></fr:tex> for the <html:em>entrywise
@@ -27,9 +28,6 @@ turns membership in <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> into nilp
 that pencil. It is also the twist that makes <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">the trace form</fr:link>
 identify <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its <fr:tex display="inline"><![CDATA[F]]></fr:tex>-twisted dual.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -61,6 +59,7 @@ identify <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex> with its
             <fr:title text="Polarizations and the trace-form generators">Polarizations and the trace-form generators</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="provenance">journal sec:polarization.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For commuting indeterminates <fr:tex display="inline"><![CDATA[s, t]]></fr:tex> and two generic matrices
@@ -78,9 +77,6 @@ forms <fr:tex display="block"><![CDATA[
 <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local"><fr:tex display="inline"><![CDATA[q]]></fr:tex>-Steenrod powers</fr:link>, by
 <fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">the evaluation identity</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link>, <fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">The characteristic polynomial coefficients</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:polarization.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -92,6 +88,7 @@ forms <fr:tex display="block"><![CDATA[
             <fr:title text="Setup: conjugation over a finite field">Setup: conjugation over a finite field</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:setup.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Fix a prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, let <fr:tex display="inline"><![CDATA[k = \mathbb {F}_q]]></fr:tex> and let <fr:tex display="inline"><![CDATA[K = \overline {k}]]></fr:tex>.
@@ -111,9 +108,6 @@ things the setup produces —
 <fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">the characteristic polynomial coefficients</fr:link> and
 <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link> — are separate statements, because
 almost every downstream node rests on one of them and not on the other.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -126,6 +120,7 @@ almost every downstream node rests on one of them and not on the other.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:steenrod.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[f \in  S]]></fr:tex> and every <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -138,9 +133,6 @@ evaluation. This one line is what the whole height program runs on:
 direction</html:em>. Every subsequent statement about <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> — the
 pencil criterion, the flag witnesses — is read off it.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:steenrod.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -152,6 +144,7 @@ pencil criterion, the flag witnesses — is read off it.</html:p>
             <fr:title text="The trace form">The trace form</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">symplectic</fr:meta>
+            <fr:meta name="provenance">distilled.tex sec:kk-lagrangian.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -167,9 +160,6 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
 <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex sec:kk-lagrangian.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -224,6 +214,7 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
             <fr:title text="Setup: conjugation over a finite field">Setup: conjugation over a finite field</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:setup.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Fix a prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, let <fr:tex display="inline"><![CDATA[k = \mathbb {F}_q]]></fr:tex> and let <fr:tex display="inline"><![CDATA[K = \overline {k}]]></fr:tex>.
@@ -243,9 +234,6 @@ things the setup produces —
 <fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">the characteristic polynomial coefficients</fr:link> and
 <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link> — are separate statements, because
 almost every downstream node rests on one of them and not on the other.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -258,6 +246,7 @@ almost every downstream node rests on one of them and not on the other.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:steenrod.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[f \in  S]]></fr:tex> and every <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -270,9 +259,6 @@ evaluation. This one line is what the whole height program runs on:
 direction</html:em>. Every subsequent statement about <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex> — the
 pencil criterion, the flag witnesses — is read off it.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:steenrod.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -285,6 +271,7 @@ pencil criterion, the flag witnesses — is read off it.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:pencil.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -303,9 +290,6 @@ coefficients of <fr:tex display="inline"><![CDATA[\chi _{M + tF(M)}]]></fr:tex> 
 <fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})(M)]]></fr:tex>, so all of them vanish exactly when every
 member of the pencil is nilpotent.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link>, <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:pencil.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -317,6 +301,7 @@ member of the pencil is nilpotent.</html:p>
             <fr:title text="The trace form">The trace form</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">symplectic</fr:meta>
+            <fr:meta name="provenance">distilled.tex sec:kk-lagrangian.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -332,9 +317,6 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
 <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex sec:kk-lagrangian.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

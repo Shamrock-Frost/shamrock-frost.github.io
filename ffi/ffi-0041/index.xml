@@ -11,6 +11,7 @@
     <fr:meta name="area">growth</fr:meta>
     <fr:meta name="area">frontier</fr:meta>
     <fr:meta name="status">open</fr:meta>
+    <fr:meta name="provenance">scratch_nineteenth.md route (a); Corollary F.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>(TOP-X). Every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex> with maximal
@@ -25,9 +26,6 @@ needs.</html:p>
 why the leading-term law is verified exactly on the range where
 published values exist. Open in general.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: scratch_nineteenth.md route (a); Corollary F.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -61,6 +59,7 @@ published values exist. Open in general.</html:p>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md; Pak--Soffer for the published values.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For <fr:tex display="inline"><![CDATA[n \ge  8]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -77,10 +76,6 @@ straight <fr:tex display="inline"><![CDATA[(\deg , \operatorname {lc})]]></fr:te
 missing is the passage from parabolic argmax counts to <fr:tex display="inline"><![CDATA[\operatorname {lc} \kappa (U_{n})]]></fr:tex>,
 which is <fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">The degree law</fr:link>, <fr:link href="/ffi/ffi-0040/" title="The M-law: the unimodal side of the leading-term law" uri="https://www.brendan.phd/ffi/ffi-0040/" display-uri="ffi-0040" type="local">The M-law: the unimodal side of the leading-term law</fr:link>, <fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X): rigidity of maximal modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md; Pak--Soffer for the published
-values.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -135,6 +130,7 @@ values.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md Result (P4); certificates mlaw_close.py, o2_symbolic and o2_singular.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(P4). <fr:tex display="block"><![CDATA[
@@ -150,10 +146,6 @@ are exhibited as attaining it.</html:p>
 makes <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr:tex> the right closed form to look for in the first
 place.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md Result (P4); certificates
-mlaw_close.py, o2_symbolic and o2_singular.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -166,6 +158,7 @@ mlaw_close.py, o2_symbolic and o2_singular.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md H13--H13<fr:tex display="inline"><![CDATA['']]></fr:tex>; certificate mlaw_close.py.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>the M-law. The argmax count of the grand formula over unimodal
@@ -184,10 +177,6 @@ and <fr:tex display="inline"><![CDATA[\ell  = 5]]></fr:tex> giving families with
             <html:p><html:strong>Status.</html:strong> Machine-verified <fr:tex display="inline"><![CDATA[n \le  40]]></fr:tex> directly, and certified to
 <fr:tex display="inline"><![CDATA[n \le  911]]></fr:tex> by mlaw_close.py over 40 stable types.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>, <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md H13--H13<fr:tex display="inline"><![CDATA['']]></fr:tex>; certificate
-mlaw_close.py.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -201,6 +190,7 @@ mlaw_close.py.</html:em>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md; Pak--Soffer for the published values.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For <fr:tex display="inline"><![CDATA[n \ge  8]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -217,10 +207,6 @@ straight <fr:tex display="inline"><![CDATA[(\deg , \operatorname {lc})]]></fr:te
 missing is the passage from parabolic argmax counts to <fr:tex display="inline"><![CDATA[\operatorname {lc} \kappa (U_{n})]]></fr:tex>,
 which is <fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">The degree law</fr:link>, <fr:link href="/ffi/ffi-0040/" title="The M-law: the unimodal side of the leading-term law" uri="https://www.brendan.phd/ffi/ffi-0040/" display-uri="ffi-0040" type="local">The M-law: the unimodal side of the leading-term law</fr:link>, <fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X): rigidity of maximal modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md; Pak--Soffer for the published
-values.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -232,6 +218,7 @@ values.</html:em>
             <fr:title text="U-modality">U-modality</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="provenance">journal sec:modality.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For a <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible subvariety <fr:tex display="inline"><![CDATA[W \subseteq  \mathfrak {n}]]></fr:tex>,
@@ -245,9 +232,6 @@ the dimension of the generic-orbit space; and <fr:tex display="inline"><![CDATA[
 nilradical slice. These parabolic values are the ones with a closed
 form: <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:modality.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

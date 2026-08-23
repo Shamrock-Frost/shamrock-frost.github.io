@@ -11,6 +11,7 @@
     <fr:meta name="area">frontier</fr:meta>
     <fr:meta name="thread">ns</fr:meta>
     <fr:meta name="status">proven</fr:meta>
+    <fr:meta name="provenance">scratch_nineteenth.md item 15(f); instruments mb_fiber, mb_peel, mb_peelpair, mb_s0, mb_i2, mb_q0, mb_grade, mb_k3, mb_s0s.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p><fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS)</fr:link> reduces to two one-peel local comparisons: <fr:tex display="block"><![CDATA[
@@ -38,10 +39,6 @@ gives <fr:tex display="inline"><![CDATA[S_0 = \operatorname {rig}(\Xi _A)]]></fr
 <fr:tex display="inline"><![CDATA[x \cdot  \operatorname {soc} R_0 = 0]]></fr:tex> proven by corner probes; the
 dual-symmetry and <fr:tex display="inline"><![CDATA[Q_0]]></fr:tex>-cap routes are refuted.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link>, <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS): the strict/centralizer inequality</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: scratch_nineteenth.md item 15(f); instruments mb_fiber,
-mb_peel, mb_peelpair, mb_s0, mb_i2, mb_q0, mb_grade, mb_k3, mb_s0s.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -75,6 +72,7 @@ mb_peel, mb_peelpair, mb_s0, mb_i2, mb_q0, mb_grade, mb_k3, mb_s0s.</html:em>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="thread">ns</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md Result 13, items 15(e)--(f); result13_addendum.md; instruments ns_*.sage, mb_*.sage.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(NS). <fr:tex display="block"><![CDATA[
@@ -94,10 +92,6 @@ Two independent reductions exist and neither has closed it:
 (NS) only through ns_clean.sage or mb_dual.sage until it is
 repaired.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits, flanks, tallness</fr:link>, <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link>, <fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">The Fredholm ledger</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md Result 13, items 15(e)--(f);
-result13_addendum.md; instruments ns_*.sage, mb_*.sage.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -143,6 +137,7 @@ result13_addendum.md; instruments ns_*.sage, mb_*.sage.</html:em>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="thread">ns</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md Result 13, items 15(e)--(f); result13_addendum.md; instruments ns_*.sage, mb_*.sage.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(NS). <fr:tex display="block"><![CDATA[
@@ -162,10 +157,6 @@ Two independent reductions exist and neither has closed it:
 (NS) only through ns_clean.sage or mb_dual.sage until it is
 repaired.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits, flanks, tallness</fr:link>, <fr:link href="/ffi/ffi-0043/" title="Lemma V" uri="https://www.brendan.phd/ffi/ffi-0043/" display-uri="ffi-0043" type="local">Lemma V</fr:link>, <fr:link href="/ffi/ffi-0046/" title="The Fredholm ledger" uri="https://www.brendan.phd/ffi/ffi-0046/" display-uri="ffi-0046" type="local">The Fredholm ledger</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md Result 13, items 15(e)--(f);
-result13_addendum.md; instruments ns_*.sage, mb_*.sage.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -179,6 +170,7 @@ result13_addendum.md; instruments ns_*.sage, mb_*.sage.</html:em>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="thread">ns</fr:meta>
             <fr:meta name="status">refuted</fr:meta>
+            <fr:meta name="provenance">result13_addendum.md; certificates p5_vtprime (EQUALITY), p5_lemmaV_asym; p5_vt_check's "FAILURES" line reports the superseded condition only.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Lemma V, as originally stated: for a split
@@ -205,11 +197,6 @@ the <fr:tex display="inline"><![CDATA[\mathfrak {k}]]></fr:tex>-version.</html:p
             <html:p><html:em>Superseded by:</html:em> <fr:link href="/ffi/ffi-0044/" title="Tall-Lemma V" uri="https://www.brendan.phd/ffi/ffi-0044/" display-uri="ffi-0044" type="local">Tall-Lemma V</fr:link> for the tall regime; <fr:link href="/ffi/ffi-0045/" title="(NS): the strict/centralizer inequality" uri="https://www.brendan.phd/ffi/ffi-0045/" display-uri="ffi-0045" type="local">(NS): the strict/centralizer inequality</fr:link> for the
 general case.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0042/" title="Splits, flanks, tallness" uri="https://www.brendan.phd/ffi/ffi-0042/" display-uri="ffi-0042" type="local">Splits, flanks, tallness</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: result13_addendum.md; certificates p5_vtprime (EQUALITY),
-p5_lemmaV_asym; p5_vt_check's "FAILURES" line reports the superseded
-condition only.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

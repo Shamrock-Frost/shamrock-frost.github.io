@@ -10,6 +10,7 @@
     <fr:taxon>theorem</fr:taxon>
     <fr:meta name="area">growth</fr:meta>
     <fr:meta name="status">proven</fr:meta>
+    <fr:meta name="provenance">lc_law.md Theorem D.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>Theorem D. For every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -25,9 +26,6 @@ height ladder spends. Paired with the lower bound of
 <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">the growth theorem</fr:link> it pins <fr:tex display="inline"><![CDATA[\deg  \kappa (U_{n})]]></fr:tex> from both sides,
 which is the content of <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link>.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>, <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: lc_law.md Theorem D.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -60,6 +58,7 @@ which is the content of <fr:link href="/ffi/ffi-0038/" title="The degree law" ur
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">height</fr:meta>
+            <fr:meta name="provenance">journal sec:modality; published rows Goddard--Goodwin, GMR 2014.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For an algebraic group action, modality is the maximum number of
@@ -73,10 +72,6 @@ height ladder spends — <fr:tex display="inline"><![CDATA[\operatorname {mod}(B
 <fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> goes through and why <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> does
 not.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:modality; published rows Goddard--Goodwin, GMR
-2014.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -89,6 +84,7 @@ not.</html:p>
             <fr:taxon>conjecture</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C/D; scratch_nineteenth.md for the <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:tex display="block"><![CDATA[
@@ -103,10 +99,6 @@ unconditional, using VLA 2003, GMR 2014 and the Pak--Soffer Appendix A
 degrees. Verified <fr:tex display="inline"><![CDATA[n \le  16]]></fr:tex>; the <fr:tex display="inline"><![CDATA[n = 17]]></fr:tex> prediction (degree 32) runs
 ahead of the literature.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">The growth theorem</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C/D; scratch_nineteenth.md for the
-<fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -119,6 +111,7 @@ ahead of the literature.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C, Corollary H6.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -139,9 +132,6 @@ explicit period-6 maximizer shapes of <fr:link href="/ffi/ffi-0034/" title="(P4)
 (Vera-López--Arregi 2003 for small <fr:tex display="inline"><![CDATA[n]]></fr:tex>). Check
 h2-literature-attribution before claiming new content here.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C, Corollary H6.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -196,6 +186,7 @@ h2-literature-attribution before claiming new content here.</html:p>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">height</fr:meta>
+            <fr:meta name="provenance">journal sec:modality; published rows Goddard--Goodwin, GMR 2014.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For an algebraic group action, modality is the maximum number of
@@ -209,10 +200,6 @@ height ladder spends — <fr:tex display="inline"><![CDATA[\operatorname {mod}(B
 <fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> goes through and why <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> does
 not.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:modality; published rows Goddard--Goodwin, GMR
-2014.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -224,6 +211,7 @@ not.</html:p>
             <fr:title text="The class count kappa(U_n)">The class count kappa(U_n)</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="provenance">Higman; Pak--Soffer App.~A for the known values.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For the unitriangular group <fr:tex display="inline"><![CDATA[U_{n} = U_{n}(\mathbb {F}_q)]]></fr:tex>, let
@@ -236,9 +224,6 @@ The growth program is the study of these two numbers:
 <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link> for the degree,
 <fr:link href="/ffi/ffi-0039/" title="The leading-term law" uri="https://www.brendan.phd/ffi/ffi-0039/" display-uri="ffi-0039" type="local">the leading-term law</fr:link> for the leading coefficient.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: Higman; Pak--Soffer App.~A for the known values.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -251,6 +236,7 @@ The growth program is the study of these two numbers:
             <fr:taxon>conjecture</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C/D; scratch_nineteenth.md for the <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:tex display="block"><![CDATA[
@@ -265,10 +251,6 @@ unconditional, using VLA 2003, GMR 2014 and the Pak--Soffer Appendix A
 degrees. Verified <fr:tex display="inline"><![CDATA[n \le  16]]></fr:tex>; the <fr:tex display="inline"><![CDATA[n = 17]]></fr:tex> prediction (degree 32) runs
 ahead of the literature.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">The growth theorem</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C/D; scratch_nineteenth.md for the
-<fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -281,6 +263,7 @@ ahead of the literature.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C, Corollary H6.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -301,9 +284,6 @@ explicit period-6 maximizer shapes of <fr:link href="/ffi/ffi-0034/" title="(P4)
 (Vera-López--Arregi 2003 for small <fr:tex display="inline"><![CDATA[n]]></fr:tex>). Check
 h2-literature-attribution before claiming new content here.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C, Corollary H6.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -317,6 +297,7 @@ h2-literature-attribution before claiming new content here.</html:p>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal thm:height-n7, thm:m8, cor:height-n8, cor:height-n9.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -334,10 +315,6 @@ for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[
 for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
 general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal thm:height-n7, thm:m8,
-cor:height-n8, cor:height-n9.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -349,6 +326,7 @@ cor:height-n8, cor:height-n9.</html:em>
             <fr:title text="U-modality">U-modality</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="provenance">journal sec:modality.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For a <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible subvariety <fr:tex display="inline"><![CDATA[W \subseteq  \mathfrak {n}]]></fr:tex>,
@@ -362,9 +340,6 @@ the dimension of the generic-orbit space; and <fr:tex display="inline"><![CDATA[
 nilradical slice. These parabolic values are the ones with a closed
 form: <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:modality.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

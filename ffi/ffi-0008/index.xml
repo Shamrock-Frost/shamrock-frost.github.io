@@ -10,6 +10,7 @@
     <fr:taxon>proposition</fr:taxon>
     <fr:meta name="area">foundations</fr:meta>
     <fr:meta name="status">proven</fr:meta>
+    <fr:meta name="provenance">journal sec:ideal.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>Krull's height theorem gives <fr:tex display="inline"><![CDATA[\operatorname {ht} J \le  \frac {n(n+1)}{2}]]></fr:tex>
@@ -20,9 +21,6 @@ therefore an <html:em>upper</html:em> bound on <fr:tex display="inline"><![CDATA
 of <fr:tex display="inline"><![CDATA[J]]></fr:tex> extend to a homogeneous system of parameters if and only if the conjectured height
 holds.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0007/" title="Flag witnesses for the partner variety" uri="https://www.brendan.phd/ffi/ffi-0007/" display-uri="ffi-0007" type="local">Flag witnesses for the partner variety</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: journal sec:ideal.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -56,6 +54,7 @@ holds.</html:p>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal thm:height-n7, thm:m8, cor:height-n8, cor:height-n9.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -73,10 +72,6 @@ for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[
 for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
 general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal thm:height-n7, thm:m8,
-cor:height-n8, cor:height-n9.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -132,6 +127,7 @@ cor:height-n8, cor:height-n9.</html:em>
             <fr:taxon>proposition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">journal sec:notflag (the <fr:tex display="inline"><![CDATA[n = 3]]></fr:tex> non-flag component is a cone over a twisted cubic); distilled.tex Part 1.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Let <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> be the strictly upper triangular matrices. Then <fr:tex display="block"><![CDATA[
@@ -147,10 +143,6 @@ mechanisms exhaust <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex>; already f
 so the flag locus is not all of the partner variety — only,
 conjecturally, all of it up to dimension.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">The pencil criterion</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:notflag (the <fr:tex display="inline"><![CDATA[n = 3]]></fr:tex> non-flag component is a
-cone over a twisted cubic); distilled.tex Part 1.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -162,6 +154,7 @@ cone over a twisted cubic); distilled.tex Part 1.</html:em>
             <fr:title text="The Steenrod ideal">The Steenrod ideal</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="provenance">Maithani 2025 for <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex>; journal sec:ideal.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:tex display="block"><![CDATA[
@@ -176,9 +169,6 @@ the common zero locus of <html:em>all</html:em> <fr:tex display="inline"><![CDAT
 <fr:tex display="inline"><![CDATA[i \ge  0]]></fr:tex>. For <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex> the ideal is exactly Maithani's primary ideal
 <fr:tex display="inline"><![CDATA[(\operatorname {tr}, \det , \mathcal {P}^{1}(\det ))]]></fr:tex> up to the orbit product.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0002/" title="The q-Steenrod operations" uri="https://www.brendan.phd/ffi/ffi-0002/" display-uri="ffi-0002" type="local">The q-Steenrod operations</fr:link>, <fr:link href="/ffi/ffi-0004/" title="Polarizations and the trace-form generators" uri="https://www.brendan.phd/ffi/ffi-0004/" display-uri="ffi-0004" type="local">Polarizations and the trace-form generators</fr:link>, <fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">The characteristic polynomial coefficients</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: Maithani 2025 for <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex>; journal sec:ideal.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -192,6 +182,7 @@ the common zero locus of <html:em>all</html:em> <fr:tex display="inline"><![CDAT
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal thm:height-n7, thm:m8, cor:height-n8, cor:height-n9.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -209,10 +200,6 @@ for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[
 for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
 general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal thm:height-n7, thm:m8,
-cor:height-n8, cor:height-n9.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

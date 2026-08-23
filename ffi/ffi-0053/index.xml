@@ -11,6 +11,7 @@
     <fr:meta name="area">frontier</fr:meta>
     <fr:meta name="avatar">3</fr:meta>
     <fr:meta name="status">refuted</fr:meta>
+    <fr:meta name="provenance">journal passes 8--11; scratch_L3, scratch_sweep, scratch_tenth, scratch_eleventh.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>(L3), in all three of its forms — (L3), (L3<fr:tex display="inline"><![CDATA[']]></fr:tex>), (L3<fr:tex display="inline"><![CDATA['']]></fr:tex>) —
@@ -27,10 +28,6 @@ lattice normal form was the attack route; the depth law for
     <html:p><html:em>Superseded by:</html:em> <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W): the wall conjecture</fr:link>, and after its refutation, the stable depth
 law.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>, <fr:link href="/ffi/ffi-0052/" title="(L2): decreasing monomial germs are vacuous" uri="https://www.brendan.phd/ffi/ffi-0052/" display-uri="ffi-0052" type="local">(L2): decreasing monomial germs are vacuous</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: journal passes 8--11; scratch_L3, scratch_sweep,
-scratch_tenth, scratch_eleventh.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -64,6 +61,7 @@ scratch_tenth, scratch_eleventh.</html:em>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="avatar">3</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">journal passes 8--10 (shift calculus, monomial census); scratch_L2.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(L2). Decreasing monomial germs are vacuous in every
@@ -73,10 +71,6 @@ Together with the witness principle — a single component-generic germ
 certifies its whole component — it is what remains standing after
 <fr:link href="/ffi/ffi-0053/" title="(L3): the vacuity family" uri="https://www.brendan.phd/ffi/ffi-0053/" display-uri="ffi-0053" type="local">(L3)</fr:link> and <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link> fell.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal passes 8--10 (shift calculus, monomial census);
-scratch_L2.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -122,6 +116,7 @@ scratch_L2.</html:em>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="avatar">3</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">journal passes 8--10 (shift calculus, monomial census); scratch_L2.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(L2). Decreasing monomial germs are vacuous in every
@@ -131,10 +126,6 @@ Together with the witness principle — a single component-generic germ
 certifies its whole component — it is what remains standing after
 <fr:link href="/ffi/ffi-0053/" title="(L3): the vacuity family" uri="https://www.brendan.phd/ffi/ffi-0053/" display-uri="ffi-0053" type="local">(L3)</fr:link> and <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link> fell.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal passes 8--10 (shift calculus, monomial census);
-scratch_L2.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -148,6 +139,7 @@ scratch_L2.</html:em>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="avatar">3</fr:meta>
             <fr:meta name="status">refuted</fr:meta>
+            <fr:meta name="provenance">journal passes 12--13; scratch_twelfth, scratch_thirteenth.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(W). At every nonvacuous component of the Springer-fiber atlas,
@@ -166,9 +158,6 @@ twelfth and thirteenth passes closed the wall program.</html:p>
 balanced runs, and donate-2-to-nearest, verified 30/30. That, not the
 wall, is the surviving structure at germ scale.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>, <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1: coisotropy of the cyclic cocycle</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal passes 12--13; scratch_twelfth, scratch_thirteenth.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -181,6 +170,7 @@ wall, is the surviving structure at germ scale.</html:p>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">symplectic</fr:meta>
             <fr:meta name="avatar">3</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 5; journal passes 8--11 (exponent dictionary, component atlas).</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>A <html:em>pencil germ</html:em> is a lattice over <fr:tex display="inline"><![CDATA[B = k\lbrack \lbrack  u \rbrack \rbrack \lbrack  u^{-1} \rbrack ]]></fr:tex>, a
@@ -200,10 +190,6 @@ Avatar 2, the residue form <fr:tex display="inline"><![CDATA[\operatorname {tr}(
 bottom here. Coisotropy of the cocycle is <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link>; the
 attempt to upgrade it to a Lagrangian statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 5; journal passes 8--11 (exponent
-dictionary, component atlas).</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

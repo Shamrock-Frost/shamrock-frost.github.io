@@ -10,6 +10,7 @@
     <fr:taxon>proposition</fr:taxon>
     <fr:meta name="area">foundations</fr:meta>
     <fr:meta name="status">proven</fr:meta>
+    <fr:meta name="provenance">journal sec:notflag (the <fr:tex display="inline"><![CDATA[n = 3]]></fr:tex> non-flag component is a cone over a twisted cubic); distilled.tex Part 1.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>Let <fr:tex display="inline"><![CDATA[\mathfrak {n}]]></fr:tex> be the strictly upper triangular matrices. Then <fr:tex display="block"><![CDATA[
@@ -25,10 +26,6 @@ mechanisms exhaust <fr:tex display="inline"><![CDATA[V(J)]]></fr:tex>; already f
 so the flag locus is not all of the partner variety — only,
 conjecturally, all of it up to dimension.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0006/" title="The pencil criterion" uri="https://www.brendan.phd/ffi/ffi-0006/" display-uri="ffi-0006" type="local">The pencil criterion</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: journal sec:notflag (the <fr:tex display="inline"><![CDATA[n = 3]]></fr:tex> non-flag component is a
-cone over a twisted cubic); distilled.tex Part 1.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -61,6 +58,7 @@ cone over a twisted cubic); distilled.tex Part 1.</html:em>
             <fr:taxon>proposition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">journal sec:ideal.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Krull's height theorem gives <fr:tex display="inline"><![CDATA[\operatorname {ht} J \le  \frac {n(n+1)}{2}]]></fr:tex>
@@ -71,9 +69,6 @@ therefore an <html:em>upper</html:em> bound on <fr:tex display="inline"><![CDATA
 of <fr:tex display="inline"><![CDATA[J]]></fr:tex> extend to a homogeneous system of parameters if and only if the conjectured height
 holds.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0007/" title="Flag witnesses for the partner variety" uri="https://www.brendan.phd/ffi/ffi-0007/" display-uri="ffi-0007" type="local">Flag witnesses for the partner variety</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:ideal.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -129,6 +124,7 @@ holds.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:pencil.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For <fr:tex display="inline"><![CDATA[M \in  \mathrm {M}_n(K)]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -147,9 +143,6 @@ coefficients of <fr:tex display="inline"><![CDATA[\chi _{M + tF(M)}]]></fr:tex> 
 <fr:tex display="inline"><![CDATA[\mathcal {P}^{i}(c_{j})(M)]]></fr:tex>, so all of them vanish exactly when every
 member of the pencil is nilpotent.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0003/" title="The evaluation identity" uri="https://www.brendan.phd/ffi/ffi-0003/" display-uri="ffi-0003" type="local">The evaluation identity</fr:link>, <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:pencil.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

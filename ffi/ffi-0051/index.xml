@@ -11,6 +11,7 @@
     <fr:meta name="area">symplectic</fr:meta>
     <fr:meta name="avatar">3</fr:meta>
     <fr:meta name="status">open</fr:meta>
+    <fr:meta name="provenance">journal passes 6--8 (variational identities, thresholds, anomaly law); distilled.tex Part 5.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>(anomaly law). Coisotropy of the survivor cocycle fails only at special
@@ -23,10 +24,6 @@ the small-<fr:tex display="inline"><![CDATA[n]]></fr:tex> record: the one genuin
 naively-stated survivor identity in the whole program is over <fr:tex display="inline"><![CDATA[\mathbb {F}_q]]></fr:tex>
 with <fr:tex display="inline"><![CDATA[q = 2]]></fr:tex> at <fr:tex display="inline"><![CDATA[n = 5]]></fr:tex>.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1: coisotropy of the cyclic cocycle</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: journal passes 6--8 (variational identities, thresholds,
-anomaly law); distilled.tex Part 5.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -93,6 +90,7 @@ anomaly law); distilled.tex Part 5.</html:em>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">symplectic</fr:meta>
             <fr:meta name="avatar">3</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 5; journal passes 8--11 (exponent dictionary, component atlas).</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>A <html:em>pencil germ</html:em> is a lattice over <fr:tex display="inline"><![CDATA[B = k\lbrack \lbrack  u \rbrack \rbrack \lbrack  u^{-1} \rbrack ]]></fr:tex>, a
@@ -112,10 +110,6 @@ Avatar 2, the residue form <fr:tex display="inline"><![CDATA[\operatorname {tr}(
 bottom here. Coisotropy of the cocycle is <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link>; the
 attempt to upgrade it to a Lagrangian statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is half an orbit dimension" uri="https://www.brendan.phd/ffi/ffi-0013/" display-uri="ffi-0013" type="local">The thesis: every bound is half an orbit dimension</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 5; journal passes 8--11 (exponent
-dictionary, component atlas).</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -129,6 +123,7 @@ dictionary, component atlas).</html:em>
             <fr:meta name="area">symplectic</fr:meta>
             <fr:meta name="status">proven</fr:meta>
             <fr:meta name="avatar">3</fr:meta>
+            <fr:meta name="provenance">journal pass 6--8 apparatus (Borel/Steinberg, Wall 1); distilled.tex Part 5.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Wall 1. The cyclic cocycle carried by the survivor algebra of a
@@ -138,10 +133,6 @@ instance of <fr:link href="/ffi/ffi-0013/" title="The thesis: every bound is hal
 <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link> tries to upgrade coisotropy to the full Lagrangian
 statement. It is a theorem; the upgrade is not.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0049/" title="The germ apparatus" uri="https://www.brendan.phd/ffi/ffi-0049/" display-uri="ffi-0049" type="local">The germ apparatus</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal pass 6--8 apparatus (Borel/Steinberg, Wall 1);
-distilled.tex Part 5.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

@@ -10,6 +10,7 @@
     <fr:taxon>theorem</fr:taxon>
     <fr:meta name="area">growth</fr:meta>
     <fr:meta name="status">proven</fr:meta>
+    <fr:meta name="provenance">scratch_nineteenth.md Result (P4); certificates mlaw_close.py, o2_symbolic and o2_singular.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>(P4). <fr:tex display="block"><![CDATA[
@@ -25,10 +26,6 @@ are exhibited as attaining it.</html:p>
 makes <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr:tex> the right closed form to look for in the first
 place.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: scratch_nineteenth.md Result (P4); certificates
-mlaw_close.py, o2_symbolic and o2_singular.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -61,6 +58,7 @@ mlaw_close.py, o2_symbolic and o2_singular.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md, grand formula A theorem via H1--H12; machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex>).</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(Deg-Opt). For every composition <fr:tex display="inline"><![CDATA[c = (c_1, \dots , c_\ell )]]></fr:tex> of
@@ -77,10 +75,6 @@ unimodal locus) and <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse ide
 period-6 structure).</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">The graded count for z_u (H4)</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>, <fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5): the grand formula off the unimodal locus</fr:link>,
 <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md, grand formula A theorem via H1--H12;
-machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex>).</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -93,6 +87,7 @@ machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><!
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md Result (P6), H7--H8.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(P6). For unimodal <fr:tex display="inline"><![CDATA[c]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -108,9 +103,6 @@ hence where <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr
 <fr:tex display="inline"><![CDATA[F + e_0 = F(c')]]></fr:tex> rules out spiky argmaxima, which is what
 <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4)</fr:link> needs to run its induction.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">The graded count for z_u (H4)</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md Result (P6), H7--H8.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -124,6 +116,7 @@ hence where <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md route (a); Corollary F.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(TOP-X). Every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex> with maximal
@@ -138,9 +131,6 @@ needs.</html:p>
 why the leading-term law is verified exactly on the range where
 published values exist. Open in general.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md route (a); Corollary F.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -153,6 +143,7 @@ published values exist. Open in general.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md H13--H13<fr:tex display="inline"><![CDATA['']]></fr:tex>; certificate mlaw_close.py.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>the M-law. The argmax count of the grand formula over unimodal
@@ -171,10 +162,6 @@ and <fr:tex display="inline"><![CDATA[\ell  = 5]]></fr:tex> giving families with
             <html:p><html:strong>Status.</html:strong> Machine-verified <fr:tex display="inline"><![CDATA[n \le  40]]></fr:tex> directly, and certified to
 <fr:tex display="inline"><![CDATA[n \le  911]]></fr:tex> by mlaw_close.py over 40 stable types.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>, <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md H13--H13<fr:tex display="inline"><![CDATA['']]></fr:tex>; certificate
-mlaw_close.py.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -187,6 +174,7 @@ mlaw_close.py.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C, Corollary H6.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -207,9 +195,6 @@ explicit period-6 maximizer shapes of <fr:link href="/ffi/ffi-0034/" title="(P4)
 (Vera-López--Arregi 2003 for small <fr:tex display="inline"><![CDATA[n]]></fr:tex>). Check
 h2-literature-attribution before claiming new content here.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C, Corollary H6.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -264,6 +249,7 @@ h2-literature-attribution before claiming new content here.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md, grand formula A theorem via H1--H12; machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex>).</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(Deg-Opt). For every composition <fr:tex display="inline"><![CDATA[c = (c_1, \dots , c_\ell )]]></fr:tex> of
@@ -280,10 +266,6 @@ unimodal locus) and <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse ide
 period-6 structure).</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">The graded count for z_u (H4)</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>, <fr:link href="/ffi/ffi-0035/" title="(P5): the grand formula off the unimodal locus" uri="https://www.brendan.phd/ffi/ffi-0035/" display-uri="ffi-0035" type="local">(P5): the grand formula off the unimodal locus</fr:link>,
 <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md, grand formula A theorem via H1--H12;
-machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex>).</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -296,6 +278,7 @@ machine evidence umod_tables.tsv (11,487 exact rows, <fr:tex display="inline"><!
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md Result (P6), H7--H8.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(P6). For unimodal <fr:tex display="inline"><![CDATA[c]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -311,9 +294,6 @@ hence where <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr
 <fr:tex display="inline"><![CDATA[F + e_0 = F(c')]]></fr:tex> rules out spiky argmaxima, which is what
 <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4)</fr:link> needs to run its induction.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">The graded count for z_u (H4)</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md Result (P6), H7--H8.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -326,6 +306,7 @@ hence where <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr
             <fr:taxon>conjecture</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C/D; scratch_nineteenth.md for the <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:tex display="block"><![CDATA[
@@ -340,10 +321,6 @@ unconditional, using VLA 2003, GMR 2014 and the Pak--Soffer Appendix A
 degrees. Verified <fr:tex display="inline"><![CDATA[n \le  16]]></fr:tex>; the <fr:tex display="inline"><![CDATA[n = 17]]></fr:tex> prediction (degree 32) runs
 ahead of the literature.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">The growth theorem</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C/D; scratch_nineteenth.md for the
-<fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -356,6 +333,7 @@ ahead of the literature.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C, Corollary H6.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -376,9 +354,6 @@ explicit period-6 maximizer shapes of <fr:link href="/ffi/ffi-0034/" title="(P4)
 (Vera-López--Arregi 2003 for small <fr:tex display="inline"><![CDATA[n]]></fr:tex>). Check
 h2-literature-attribution before claiming new content here.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C, Corollary H6.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -390,6 +365,7 @@ h2-literature-attribution before claiming new content here.</html:p>
             <fr:title text="z_u(c) and the modality formula">z_u(c) and the modality formula</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="provenance">lc_law.md; journal sec:zu.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Fix a composition <fr:tex display="inline"><![CDATA[c = (c_1, \dots , c_\ell )]]></fr:tex> of <fr:tex display="inline"><![CDATA[n]]></fr:tex> and let
@@ -406,9 +382,6 @@ where <fr:tex display="inline"><![CDATA[d_c]]></fr:tex> adjusts the flag count. 
 is computing <fr:tex display="inline"><![CDATA[z_u(c)]]></fr:tex>, which is what <fr:link href="/ffi/ffi-0032/" title="The graded count for z_u (H4)" uri="https://www.brendan.phd/ffi/ffi-0032/" display-uri="ffi-0032" type="local">the graded count</fr:link>
 does.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md; journal sec:zu.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

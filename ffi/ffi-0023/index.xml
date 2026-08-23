@@ -10,6 +10,7 @@
     <fr:taxon>theorem</fr:taxon>
     <fr:meta name="area">height</fr:meta>
     <fr:meta name="status">proven</fr:meta>
+    <fr:meta name="provenance">journal subsec:seventeenth and subsec:eighteenth; census53_cells.log (canonical, 53 addresses degree 10 lc 1 per characteristic), sweep16_rank.log (exact-<fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> ranks, 16 nonlinear loci); commit e8c7430.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>(S). At <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> the violation locus of <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link> is
@@ -27,12 +28,6 @@ so no <fr:tex display="inline"><![CDATA[f = 3]]></fr:tex> violation is available
 <fr:tex display="inline"><![CDATA[72 = 53 + \sum  c'_i + m_{\text {unknown}}]]></fr:tex>, closed by
 <fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+)</fr:link>.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: journal subsec:seventeenth and subsec:eighteenth;
-census53_cells.log (canonical, 53 addresses degree 10 lc 1 per
-characteristic), sweep16_rank.log (exact-<fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> ranks, 16
-nonlinear loci); commit e8c7430.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -65,6 +60,7 @@ nonlinear loci); commit e8c7430.</html:em>
             <fr:taxon>conjecture</fr:taxon>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">journal subsec:seventeenth (statement), subsec:eighteenth (discharge); the jtype truncation bug found and fixed en route; commit e8c7430.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(S+). In the <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> ledger
@@ -78,11 +74,6 @@ and the unknown count is zero. Kept as its own node because it is the
 hinge the <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> argument turns on, and because a <fr:tex display="inline"><![CDATA[n = 10]]></fr:tex> analogue
 is the natural next ledger.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S): the n = 9 reduction</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal subsec:seventeenth (statement), subsec:eighteenth
-(discharge); the jtype truncation bug found and fixed en route; commit
-e8c7430.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -95,6 +86,7 @@ e8c7430.</html:em>
             <fr:taxon>corollary</fr:taxon>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">conditional</fr:meta>
+            <fr:meta name="provenance">journal cor:height-n9 (eighteenth pass); census53_cells.log, sweep16_rank.log; commit e8c7430.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> and every prime
@@ -105,10 +97,6 @@ and on the machine certificates below.</html:p>
 <fr:tex display="inline"><![CDATA[\operatorname {lc} = 3]]></fr:tex> and are safe, so no violation survives. Exact address
 polynomials come from the GR cell engine.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S): the n = 9 reduction</fr:link>, <fr:link href="/ffi/ffi-0024/" title="(S+): the ledger conjecture" uri="https://www.brendan.phd/ffi/ffi-0024/" display-uri="ffi-0024" type="local">(S+): the ledger conjecture</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal cor:height-n9 (eighteenth pass); census53_cells.log,
-sweep16_rank.log; commit e8c7430.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -155,6 +143,7 @@ sweep16_rank.log; commit e8c7430.</html:em>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 3; journal sec:h1 and the pass 6--8 apparatus.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(*): for every proper <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable irreducible subvariety
@@ -170,10 +159,6 @@ why the ladder <fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="htt
 hand.</html:p>
             <html:p>The infinitesimal form of the same statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1): the incidence theorem for flagless pencils</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 3; journal sec:h1 and the pass 6--8
-apparatus.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -186,6 +171,7 @@ apparatus.</html:em>
             <fr:taxon>conjecture</fr:taxon>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">journal subsec:seventeenth (statement), subsec:eighteenth (discharge); the jtype truncation bug found and fixed en route; commit e8c7430.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(S+). In the <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> ledger
@@ -199,11 +185,6 @@ and the unknown count is zero. Kept as its own node because it is the
 hinge the <fr:tex display="inline"><![CDATA[n = 9]]></fr:tex> argument turns on, and because a <fr:tex display="inline"><![CDATA[n = 10]]></fr:tex> analogue
 is the natural next ledger.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0023/" title="(S): the n = 9 reduction" uri="https://www.brendan.phd/ffi/ffi-0023/" display-uri="ffi-0023" type="local">(S): the n = 9 reduction</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal subsec:seventeenth (statement), subsec:eighteenth
-(discharge); the jtype truncation bug found and fixed en route; commit
-e8c7430.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -216,6 +197,7 @@ e8c7430.</html:em>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">height</fr:meta>
+            <fr:meta name="provenance">journal sec:modality; published rows Goddard--Goodwin, GMR 2014.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For an algebraic group action, modality is the maximum number of
@@ -229,10 +211,6 @@ height ladder spends — <fr:tex display="inline"><![CDATA[\operatorname {mod}(B
 <fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">height at <fr:tex display="inline"><![CDATA[n \le  7]]></fr:tex></fr:link> goes through and why <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> does
 not.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal sec:modality; published rows Goddard--Goodwin, GMR
-2014.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

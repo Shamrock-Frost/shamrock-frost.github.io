@@ -10,6 +10,7 @@
     <fr:taxon>definition</fr:taxon>
     <fr:meta name="area">symplectic</fr:meta>
     <fr:meta name="avatar">2</fr:meta>
+    <fr:meta name="provenance">distilled.tex Part 3; journal sec:h1.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>A <html:em>nilpotent pencil</html:em> is <fr:tex display="inline"><![CDATA[P = \mu  N + \nu  M]]></fr:tex>, a matrix
@@ -25,9 +26,6 @@ on the pencil's <fr:tex display="inline"><![CDATA[\mathbb {P}^1]]></fr:tex> has 
 inscribed-pencil freedom through the Riemann--Roch budget
 <fr:tex display="inline"><![CDATA[\chi (\mathcal {C}_{P})]]></fr:tex>.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: distilled.tex Part 3; journal sec:h1.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -61,6 +59,7 @@ inscribed-pencil freedom through the Riemann--Roch budget
             <fr:meta name="area">symplectic</fr:meta>
             <fr:meta name="status">proven</fr:meta>
             <fr:meta name="avatar">2</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 3; journal sec:h1; formal/ Lean certificates.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(H1). Every nilpotent pencil satisfies the incidence bound: the
@@ -80,10 +79,6 @@ intersection and the regular-class height bound holds for every <fr:tex display=
 <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>. The elementary chain of the proof is formalized in
 Lean 4 (formal/, no sorry up to the kernel-flatness hypothesis).</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0011/" title="The trace form" uri="https://www.brendan.phd/ffi/ffi-0011/" display-uri="ffi-0011" type="local">The trace form</fr:link>, <fr:link href="/ffi/ffi-0015/" title="Nilpotent pencils, drop points, the centralizer sheaf" uri="https://www.brendan.phd/ffi/ffi-0015/" display-uri="ffi-0015" type="local">Nilpotent pencils, drop points, the centralizer sheaf</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 3; journal sec:h1; formal/ Lean
-certificates.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -129,6 +124,7 @@ certificates.</html:em>
             <fr:title text="Setup: conjugation over a finite field">Setup: conjugation over a finite field</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">foundations</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal sec:setup.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Fix a prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, let <fr:tex display="inline"><![CDATA[k = \mathbb {F}_q]]></fr:tex> and let <fr:tex display="inline"><![CDATA[K = \overline {k}]]></fr:tex>.
@@ -148,9 +144,6 @@ things the setup produces —
 <fr:link href="/ffi/ffi-0054/" title="The characteristic polynomial coefficients" uri="https://www.brendan.phd/ffi/ffi-0054/" display-uri="ffi-0054" type="local">the characteristic polynomial coefficients</fr:link> and
 <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">the entrywise Frobenius</fr:link> — are separate statements, because
 almost every downstream node rests on one of them and not on the other.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal sec:setup.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -162,6 +155,7 @@ almost every downstream node rests on one of them and not on the other.</html:p>
             <fr:title text="The trace form">The trace form</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">symplectic</fr:meta>
+            <fr:meta name="provenance">distilled.tex sec:kk-lagrangian.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>The <html:em>trace form</html:em> on <fr:tex display="inline"><![CDATA[\mathfrak {gl}_n]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -177,9 +171,6 @@ that makes <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangia
 <fr:tex display="inline"><![CDATA[\operatorname {tr}([P, A]B)]]></fr:tex> of <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1)</fr:link>, and the survivor cocycle of
 <fr:link href="/ffi/ffi-0017/" title="Wall 1: coisotropy of the cyclic cocycle" uri="https://www.brendan.phd/ffi/ffi-0017/" display-uri="ffi-0017" type="local">Wall 1</fr:link> are all restrictions of it.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>, <fr:link href="/ffi/ffi-0055/" title="The entrywise Frobenius" uri="https://www.brendan.phd/ffi/ffi-0055/" display-uri="ffi-0055" type="local">The entrywise Frobenius</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex sec:kk-lagrangian.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

@@ -10,6 +10,7 @@
     <fr:taxon>conjecture</fr:taxon>
     <fr:meta name="area">growth</fr:meta>
     <fr:meta name="status">open</fr:meta>
+    <fr:meta name="provenance">lc_law.md Theorem C/D; scratch_nineteenth.md for the <fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p><fr:tex display="block"><![CDATA[
@@ -24,10 +25,6 @@ unconditional, using VLA 2003, GMR 2014 and the Pak--Soffer Appendix A
 degrees. Verified <fr:tex display="inline"><![CDATA[n \le  16]]></fr:tex>; the <fr:tex display="inline"><![CDATA[n = 17]]></fr:tex> prediction (degree 32) runs
 ahead of the literature.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">The growth theorem</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: lc_law.md Theorem C/D; scratch_nineteenth.md for the
-<fr:tex display="inline"><![CDATA[n \le  17]]></fr:tex> table.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -60,6 +57,7 @@ ahead of the literature.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md Result (P4); certificates mlaw_close.py, o2_symbolic and o2_singular.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(P4). <fr:tex display="block"><![CDATA[
@@ -75,10 +73,6 @@ are exhibited as attaining it.</html:p>
 makes <fr:tex display="inline"><![CDATA[\lfloor  n(n+6)/12 \rfloor ]]></fr:tex> the right closed form to look for in the first
 place.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0030/" title="z_u(c) and the modality formula" uri="https://www.brendan.phd/ffi/ffi-0030/" display-uri="ffi-0030" type="local">z_u(c) and the modality formula</fr:link>, <fr:link href="/ffi/ffi-0036/" title="(P6): the collapse identity and the period-6 structure" uri="https://www.brendan.phd/ffi/ffi-0036/" display-uri="ffi-0036" type="local">(P6): the collapse identity and the period-6 structure</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md Result (P4); certificates
-mlaw_close.py, o2_symbolic and o2_singular.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -90,6 +84,7 @@ mlaw_close.py, o2_symbolic and o2_singular.</html:em>
             <fr:title text="The class count kappa(U_n)">The class count kappa(U_n)</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="provenance">Higman; Pak--Soffer App.~A for the known values.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For the unitriangular group <fr:tex display="inline"><![CDATA[U_{n} = U_{n}(\mathbb {F}_q)]]></fr:tex>, let
@@ -102,9 +97,6 @@ The growth program is the study of these two numbers:
 <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link> for the degree,
 <fr:link href="/ffi/ffi-0039/" title="The leading-term law" uri="https://www.brendan.phd/ffi/ffi-0039/" display-uri="ffi-0039" type="local">the leading-term law</fr:link> for the leading coefficient.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: Higman; Pak--Soffer App.~A for the known values.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -118,6 +110,7 @@ The growth program is the study of these two numbers:
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">scratch_nineteenth.md; Pak--Soffer for the published values.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For <fr:tex display="inline"><![CDATA[n \ge  8]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -134,10 +127,6 @@ straight <fr:tex display="inline"><![CDATA[(\deg , \operatorname {lc})]]></fr:te
 missing is the passage from parabolic argmax counts to <fr:tex display="inline"><![CDATA[\operatorname {lc} \kappa (U_{n})]]></fr:tex>,
 which is <fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">The degree law</fr:link>, <fr:link href="/ffi/ffi-0040/" title="The M-law: the unimodal side of the leading-term law" uri="https://www.brendan.phd/ffi/ffi-0040/" display-uri="ffi-0040" type="local">The M-law: the unimodal side of the leading-term law</fr:link>, <fr:link href="/ffi/ffi-0041/" title="(TOP-X): rigidity of maximal modality" uri="https://www.brendan.phd/ffi/ffi-0041/" display-uri="ffi-0041" type="local">(TOP-X): rigidity of maximal modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: scratch_nineteenth.md; Pak--Soffer for the published
-values.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -150,6 +139,7 @@ values.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem D.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Theorem D. For every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -165,9 +155,6 @@ height ladder spends. Paired with the lower bound of
 <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">the growth theorem</fr:link> it pins <fr:tex display="inline"><![CDATA[\deg  \kappa (U_{n})]]></fr:tex> from both sides,
 which is the content of <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>, <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem D.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -221,6 +208,7 @@ which is the content of <fr:link href="/ffi/ffi-0038/" title="The degree law" ur
             <fr:title text="The class count kappa(U_n)">The class count kappa(U_n)</fr:title>
             <fr:taxon>definition</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
+            <fr:meta name="provenance">Higman; Pak--Soffer App.~A for the known values.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For the unitriangular group <fr:tex display="inline"><![CDATA[U_{n} = U_{n}(\mathbb {F}_q)]]></fr:tex>, let
@@ -233,9 +221,6 @@ The growth program is the study of these two numbers:
 <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link> for the degree,
 <fr:link href="/ffi/ffi-0039/" title="The leading-term law" uri="https://www.brendan.phd/ffi/ffi-0039/" display-uri="ffi-0039" type="local">the leading-term law</fr:link> for the leading coefficient.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0001/" title="Setup: conjugation over a finite field" uri="https://www.brendan.phd/ffi/ffi-0001/" display-uri="ffi-0001" type="local">Setup: conjugation over a finite field</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: Higman; Pak--Soffer App.~A for the known values.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -248,6 +233,7 @@ The growth program is the study of these two numbers:
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem C, Corollary H6.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -268,9 +254,6 @@ explicit period-6 maximizer shapes of <fr:link href="/ffi/ffi-0034/" title="(P4)
 (Vera-López--Arregi 2003 for small <fr:tex display="inline"><![CDATA[n]]></fr:tex>). Check
 h2-literature-attribution before claiming new content here.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0029/" title="Theorem D: the modality cap" uri="https://www.brendan.phd/ffi/ffi-0029/" display-uri="ffi-0029" type="local">Theorem D: the modality cap</fr:link>, <fr:link href="/ffi/ffi-0033/" title="(Deg-Opt): the grand formula for umod" uri="https://www.brendan.phd/ffi/ffi-0033/" display-uri="ffi-0033" type="local">(Deg-Opt): the grand formula for umod</fr:link>, <fr:link href="/ffi/ffi-0034/" title="(P4): the maximum of umod over compositions" uri="https://www.brendan.phd/ffi/ffi-0034/" display-uri="ffi-0034" type="local">(P4): the maximum of umod over compositions</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem C, Corollary H6.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -283,6 +266,7 @@ h2-literature-attribution before claiming new content here.</html:p>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">growth</fr:meta>
             <fr:meta name="status">proven</fr:meta>
+            <fr:meta name="provenance">lc_law.md Theorem D.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>Theorem D. For every <fr:tex display="inline"><![CDATA[U]]></fr:tex>-stable irreducible <fr:tex display="inline"><![CDATA[W]]></fr:tex>: <fr:tex display="block"><![CDATA[
@@ -298,9 +282,6 @@ height ladder spends. Paired with the lower bound of
 <fr:link href="/ffi/ffi-0037/" title="The growth theorem" uri="https://www.brendan.phd/ffi/ffi-0037/" display-uri="ffi-0037" type="local">the growth theorem</fr:link> it pins <fr:tex display="inline"><![CDATA[\deg  \kappa (U_{n})]]></fr:tex> from both sides,
 which is the content of <fr:link href="/ffi/ffi-0038/" title="The degree law" uri="https://www.brendan.phd/ffi/ffi-0038/" display-uri="ffi-0038" type="local">the degree law</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0026/" title="The class count kappa(U_n)" uri="https://www.brendan.phd/ffi/ffi-0026/" display-uri="ffi-0026" type="local">The class count kappa(U_n)</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>, <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: lc_law.md Theorem D.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>

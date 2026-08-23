@@ -10,6 +10,7 @@
     <fr:taxon>corollary</fr:taxon>
     <fr:meta name="area">height</fr:meta>
     <fr:meta name="status">conditional</fr:meta>
+    <fr:meta name="provenance">journal cor:height-n8 (fifteenth and sixteenth passes); commit afdac1f.</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> and every prime
@@ -20,10 +21,6 @@ cell. The two-moduli locus is exactly the four O4 ideals, which are
 Steinberg slices of involutions and therefore safe,
 characteristic-free.</html:p>
     <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0021/" title="(M8): the per-cell modality reduction at n = 8" uri="https://www.brendan.phd/ffi/ffi-0021/" display-uri="ffi-0021" type="local">(M8): the per-cell modality reduction at n = 8</fr:link>.</html:p>
-    <html:p>
-      <html:em>Provenance: journal cor:height-n8 (fifteenth and sixteenth passes);
-commit afdac1f.</html:em>
-    </html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -56,6 +53,7 @@ commit afdac1f.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">conditional</fr:meta>
+            <fr:meta name="provenance">journal thm:height-n7, cor:height-n8, cor:height-n9; commits afdac1f, e8c7430.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p><fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link> holds for every <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> and
@@ -69,10 +67,6 @@ rungs are <fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://
 stated on each.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0009/" title="The height conjecture" uri="https://www.brendan.phd/ffi/ffi-0009/" display-uri="ffi-0009" type="local">The height conjecture</fr:link>, <fr:link href="/ffi/ffi-0019/" title="Height at n ≤ 5" uri="https://www.brendan.phd/ffi/ffi-0019/" display-uri="ffi-0019" type="local">Height at n ≤ 5</fr:link>, <fr:link href="/ffi/ffi-0020/" title="Height at n ≤ 7" uri="https://www.brendan.phd/ffi/ffi-0020/" display-uri="ffi-0020" type="local">Height at n ≤ 7</fr:link>, <fr:link href="/ffi/ffi-0022/" title="Height at n = 8" uri="https://www.brendan.phd/ffi/ffi-0022/" display-uri="ffi-0022" type="local">Height at n = 8</fr:link>,
 <fr:link href="/ffi/ffi-0025/" title="Height at n = 9" uri="https://www.brendan.phd/ffi/ffi-0025/" display-uri="ffi-0025" type="local">Height at n = 9</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal thm:height-n7, cor:height-n8, cor:height-n9; commits
-afdac1f, e8c7430.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -119,6 +113,7 @@ afdac1f, e8c7430.</html:em>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="area">frontier</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 3; journal sec:h1 and the pass 6--8 apparatus.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(*): for every proper <fr:tex display="inline"><![CDATA[B]]></fr:tex>-stable irreducible subvariety
@@ -134,10 +129,6 @@ why the ladder <fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="htt
 hand.</html:p>
             <html:p>The infinitesimal form of the same statement is <fr:link href="/ffi/ffi-0050/" title="(W): the wall conjecture" uri="https://www.brendan.phd/ffi/ffi-0050/" display-uri="ffi-0050" type="local">(W)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0014/" title="Orbital varieties are Lagrangian" uri="https://www.brendan.phd/ffi/ffi-0014/" display-uri="ffi-0014" type="local">Orbital varieties are Lagrangian</fr:link>, <fr:link href="/ffi/ffi-0016/" title="(H1): the incidence theorem for flagless pencils" uri="https://www.brendan.phd/ffi/ffi-0016/" display-uri="ffi-0016" type="local">(H1): the incidence theorem for flagless pencils</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 3; journal sec:h1 and the pass 6--8
-apparatus.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -150,6 +141,7 @@ apparatus.</html:em>
             <fr:taxon>theorem</fr:taxon>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">conditional</fr:meta>
+            <fr:meta name="provenance">journal thm:m8 (sixteenth pass); pseudo_levi_gap.sage all-pass; commit afdac1f.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>(M8). Every cell of the <fr:tex display="inline"><![CDATA[n = 8]]></fr:tex> address decomposition has
@@ -166,10 +158,6 @@ for <fr:tex display="inline"><![CDATA[A_7]]></fr:tex> (degree 9, leading coeffic
 pseudo_levi_gap.sage needs <fr:tex display="inline"><![CDATA[|F| \gtrsim  10^4]]></fr:tex> to be visible
 numerically; the argument itself is characteristic-free.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*): the characteristic-p subvariety inference</fr:link>, <fr:link href="/ffi/ffi-0027/" title="Borel modality" uri="https://www.brendan.phd/ffi/ffi-0027/" display-uri="ffi-0027" type="local">Borel modality</fr:link>, <fr:link href="/ffi/ffi-0028/" title="U-modality" uri="https://www.brendan.phd/ffi/ffi-0028/" display-uri="ffi-0028" type="local">U-modality</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: journal thm:m8 (sixteenth pass); pseudo_levi_gap.sage
-all-pass; commit afdac1f.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
@@ -183,6 +171,7 @@ all-pass; commit afdac1f.</html:em>
             <fr:meta name="area">foundations</fr:meta>
             <fr:meta name="area">height</fr:meta>
             <fr:meta name="status">open</fr:meta>
+            <fr:meta name="provenance">distilled.tex Part 1; journal thm:height-n7, thm:m8, cor:height-n8, cor:height-n9.</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <html:p>For every <fr:tex display="inline"><![CDATA[n]]></fr:tex> and every prime power <fr:tex display="inline"><![CDATA[q]]></fr:tex>, <fr:tex display="block"><![CDATA[
@@ -200,10 +189,6 @@ for all but finitely many characteristics per <fr:tex display="inline"><![CDATA[
 for <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex> every <fr:tex display="inline"><![CDATA[q]]></fr:tex> (<fr:link href="/ffi/ffi-0018/" title="Height at n ≤ 9" uri="https://www.brendan.phd/ffi/ffi-0018/" display-uri="ffi-0018" type="local">height at <fr:tex display="inline"><![CDATA[n \le  9]]></fr:tex></fr:link>). Open in
 general, and what is open is exactly <fr:link href="/ffi/ffi-0010/" title="(*): the characteristic-p subvariety inference" uri="https://www.brendan.phd/ffi/ffi-0010/" display-uri="ffi-0010" type="local">(*)</fr:link>.</html:p>
             <html:p><html:em>Uses:</html:em> <fr:link href="/ffi/ffi-0005/" title="The Steenrod ideal" uri="https://www.brendan.phd/ffi/ffi-0005/" display-uri="ffi-0005" type="local">The Steenrod ideal</fr:link>, <fr:link href="/ffi/ffi-0008/" title="The Krull bound: only the upper bound is open" uri="https://www.brendan.phd/ffi/ffi-0008/" display-uri="ffi-0008" type="local">The Krull bound: only the upper bound is open</fr:link>.</html:p>
-            <html:p>
-              <html:em>Provenance: distilled.tex Part 1; journal thm:height-n7, thm:m8,
-cor:height-n8, cor:height-n9.</html:em>
-            </html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
