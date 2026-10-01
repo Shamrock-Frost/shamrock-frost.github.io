@@ -40,7 +40,7 @@ I also formalize mathematics in the Lean proof assistant; logic and programming 
 * Simplicial sets and the Quillen model structure, written for a seminar talk (2023).
 [PDF](/pdfs/sset.pdf)
 
-* From spaces to the Spanier–Whitehead category: connectivity, suspension, the Freudenthal suspension theorem, and the tensor-triangulated structure on finite spectra (2024).
+* Spectra and the Spanier–Whitehead category (2024).
 [PDF](/pdfs/Spectra.pdf)
 
 # Seminars
