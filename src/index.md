@@ -51,6 +51,8 @@ I also formalize mathematics in the Lean proof assistant; logic and programming 
 
 # Formalization
 
+* I am a Mathematical Research Engineer with the [Mathlib Initiative](https://mathlib-initiative.org/team), working on StacksLib.
+
 * Contributions to [Mathlib](https://github.com/leanprover-community/mathlib4/pulls?q=is%3Apr+author%3AShamrock-Frost+is%3Amerged), including regular sequences, associated primes, and the opposite of a braided monoidal category.
 
 * [The Brouwer fixed point theorem](https://github.com/Shamrock-Frost/BrouwerFixedPoint), in Lean 3.
