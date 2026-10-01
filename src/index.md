@@ -5,25 +5,53 @@
 ![](/public/img/headshot.jpg "Brendan Murphy's Headshot"){ width=50%}
 
 PhD Student, Mathematics, University of Utah
-<bsmurphy@math.utah.edu>
+<bsmurphy@math.utah.edu> · [GitHub](https://github.com/Shamrock-Frost)
 
 # Bio
 
 I am a PhD student at the University of Utah working with Professor [Srikanth Iyengar](http://www.math.utah.edu/~iyengar/).
 I graduated from the University of Washington in Spring 2022 with a BS in Computer Science & Mathematics.
-I'm broadly interested in commutative algebra, homotopy theory, logic, and formal verification.
+I work in commutative algebra and homotopy theory, currently on dualizable objects and completion in derived and stable categories, from noetherian rings to modular representations of finite groups.
+I also formalize mathematics in the Lean proof assistant.
 
 # Papers
 
 * Shumo Chu, **Brendan Murphy**, Jared Roesch, Alvin Cheung, Dan Suciu, Axiomatic Foundations and Algorithms for Deciding Semantic Equivalences of SQL Queries. [arXiv:1802.02229 [cs.DB]](https://arxiv.org/abs/1802.02229)
 
 # Talks
-* A talk on my work formalizing the Brouwer Fixed Point theorem at BIRS 23w5124
+
+* Analysis and calculus in Mathlib, Utah Lean Seminar, September 2026.
+[Worksheet](https://kschwede.github.io/utahleanseminar/Worksheets/AnalysisWorksheet.lean)
+[Solutions](/lean/AnalysisSolutions.lean)
+
+* Introduction and first functions (with Brian Nugent), Utah Lean Seminar, September 2026.
+[Worksheet](https://kschwede.github.io/utahleanseminar/Worksheets/FirstFunctions.lean)
+
+* Formalizing the Brouwer fixed point theorem in Lean, BIRS workshop 23w5124.
 ![](/videos/BFT_talk.mp4)
 [Slides](/pdfs/BFT_Talk.pdf)
 
-* A talk on what formal verification is written for a student seminar
+* The Lean theorem prover and formal mathematics, BIKES, 2023.
 [Slides](/pdfs/Lean_Talk.pdf)
 
-* WIP Notes for a talk I'm giving on simplicial sets & the quillen model structure in a seminar
-[Notes](/pdfs/sset.pdf)
+# Notes
+
+* Simplicial sets and the Quillen model structure, written for a seminar talk (2023).
+[PDF](/pdfs/sset.pdf)
+
+* Spectra (2024).
+[PDF](/pdfs/Spectra.pdf)
+
+# Seminars
+
+* I co-organize the [Utah Lean Seminar](https://kschwede.github.io/utahleanseminar/) with Brian Nugent and Karl Schwede.
+
+* I co-organized [BIKES](/BIKES/BIKES.html), the graduate student commutative algebra seminar at Utah, in 2024.
+
+# Formalization
+
+* Contributions to [Mathlib](https://github.com/leanprover-community/mathlib4/pulls?q=is%3Apr+author%3AShamrock-Frost+is%3Amerged), including regular sequences, associated primes, and the opposite of a braided monoidal category.
+
+* [The Brouwer fixed point theorem](https://github.com/Shamrock-Frost/BrouwerFixedPoint), in Lean 3.
+
+* [The Jordan–Hölder theorem](https://github.com/Shamrock-Frost/jordan-holder), in Lean 3.
