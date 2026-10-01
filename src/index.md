@@ -11,8 +11,9 @@ PhD Student, Mathematics, University of Utah
 
 I am a PhD student at the University of Utah working with Professor [Srikanth Iyengar](http://www.math.utah.edu/~iyengar/).
 I graduated from the University of Washington in Spring 2022 with a BS in Computer Science & Mathematics.
-I work in commutative algebra and homotopy theory, currently on dualizable objects and completion in derived and stable categories, from noetherian rings to modular representations of finite groups.
-I also formalize mathematics in the Lean proof assistant.
+I work in commutative algebra and homotopy theory.
+Currently I have active projects in modular invariant theory, descent for spectra, and local/complete dualizability in tt-categories.
+I also formalize mathematics in the Lean proof assistant; logic and programming language theory have a special place in my heart.
 
 # Papers
 
@@ -39,7 +40,7 @@ I also formalize mathematics in the Lean proof assistant.
 * Simplicial sets and the Quillen model structure, written for a seminar talk (2023).
 [PDF](/pdfs/sset.pdf)
 
-* Spectra (2024).
+* From spaces to the Spanier–Whitehead category: connectivity, suspension, the Freudenthal suspension theorem, and the tensor-triangulated structure on finite spectra (2024).
 [PDF](/pdfs/Spectra.pdf)
 
 # Seminars
