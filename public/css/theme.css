@@ -647,6 +647,15 @@ img {
   display: block;
 }
 
+/* Videos fit the text column too. At their natural width (BFT_talk.mp4 is
+   1068px) they widened the page, so phones zoomed out and the video filled
+   the screen. */
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .wide img {
   /* Put this in front of the table of contents */
   transform: translateZ(0px);
